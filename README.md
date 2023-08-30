@@ -8,19 +8,17 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
 
 ## Autores
 
-- [Nombre del Autor 1](Enlace al perfil de GitHub)
-- [Jonathan David Rodríguez Larrotta](Enlace al perfil de GitHub)
-- [Santiago Marino Cortes](Enlace al perfil de GitHub)
+- [Juan Pablo]
+- [Jonathan David Rodríguez Larrotta]
+- [Santiago Marino Cortes]
 
-## Contenido
+## Documentación
 
-- **Carpeta 1:** Descripción de su contenido.
-- **Carpeta 2:** Descripción de su contenido.
-- ...
 
-## Instalación
 
-Pasos necesarios para instalar y configurar el proyecto.
+## Simulaciones
+
+
 
 ## Uso
 
@@ -30,7 +28,4 @@ Instrucciones sobre cómo usar el proyecto una vez instalado.
 
 Indicaciones para que otros colaboren en el proyecto.
 
-## Licencia
-
-Información sobre la licencia del proyecto y los derechos de autor.
 
