@@ -14,7 +14,7 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
 
 ## Documentación
 
-
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/Imagen1.jpeg)
 
 ## Simulaciones
 
