@@ -8,9 +8,9 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
 
 ## Autores
 
-- [Juan Pablo]
-- [Jonathan David Rodríguez Larrotta]
-- [Santiago Marino Cortes]
+- _Juan Pablo_
+- _Jonathan David Rodríguez Larrotta_
+- _Santiago Marino Cortes_
 
 ## Documentación
 A continuación se presenta una imágen en la que se detalla el circuito equivalente de la compuerta 74LS04.
