@@ -21,12 +21,9 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 
 
 
-## Uso
+## Aplicación
 
 Instrucciones sobre cómo usar el proyecto una vez instalado.
 
-## Contribuciones
-
-Indicaciones para que otros colaboren en el proyecto.
 
 
