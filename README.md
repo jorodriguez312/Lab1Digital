@@ -13,6 +13,7 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
 - [Santiago Marino Cortes]
 
 ## Documentación
+A continuación se presenta una imágen en la que se detalla el circuito equivalente de la compuerta 74LS04.
 
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/Imagen1.jpeg)
 
