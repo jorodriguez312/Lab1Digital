@@ -23,7 +23,9 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 ssss
 ## Aplicación
 
-Instrucciones sobre cómo usar el proyecto una vez instalado.
+Circuito propuesto para la compuerta 74LS04.
+
+Circuito propuesto para la compuerta CD4069.
 
 
 
