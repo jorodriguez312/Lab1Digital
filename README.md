@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
 
 ## Autores
 
-- _Juan Pablo_
+- _Juan Pablo Ávila Suárez_
 - _Jonathan David Rodríguez Larrotta_
 - _Santiago Marino Cortes_
 
