@@ -1,6 +1,6 @@
 # COMPARACIÓN DE TECNOLOGÍA
 
-![Imagen](https://raw.githubusercontent.com/jurodriguezlo/Proyecto-Final-Electr-nica-Digital/master/Imágenes/EscudoUNAL1.jpg)
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/EscudoUNAL.jpg)
 
 ## Descripción
 
