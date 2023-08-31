@@ -76,7 +76,7 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 | Característica   | 74LS04         | CD4069         |
 |------------------|----------------|----------------|
 | Tipo de compuerta| NOT (NO)       | NOT (NO)       |
-|Tensión de alimentación mínima | 3 V       | 4,75 V       | 
+| Tensión de alimentación mínima | 3 V       | 4,75 V       | 
 | Número de puertas| 6 por chip     | 6 por chip     |
 | Alimentación     | 5V             | 3V - 18V       |
 | Consumo de energía| Moderado       | Bajo           |
