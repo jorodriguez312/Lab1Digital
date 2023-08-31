@@ -19,7 +19,7 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 
 ## Simulaciones
 
-
+sssssssss
 ssss
 ## Aplicación
 
