@@ -25,7 +25,11 @@ ssss
 
 Circuito propuesto para la compuerta 74LS04.
 
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoTTL.jpeg)
+
 Circuito propuesto para la compuerta CD4069.
+
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoCMOS.jpeg)
 
 
 
