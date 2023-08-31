@@ -10,17 +10,21 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
 
 - _Juan Pablo Ávila Suárez_
 - _Jonathan David Rodríguez Larrotta_
-- _Santiago Marino Cortes_
+- _Santiago Mariño Cortes_
 
 ## Documentación
 A continuación se presenta una imágen en la que se detalla el circuito equivalente de la compuerta 74LS04.
 
+
+## Marco Teórico.
+- _**Datasheets**_
+- _**Datasheet 74LS04.**_
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/Imagen1.jpeg)
+
 
 ## Simulaciones
 
 
-ssss
 ## Aplicación
 
 Instrucciones sobre cómo usar el proyecto una vez instalado.
