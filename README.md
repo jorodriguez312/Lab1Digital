@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto tiene como objetivo principal la simulación y documentación detallada de las características de compuertas negadoras utilizando dos tecnologías distintas: la tecnología TTL (Transistor-Transistor Logic) representada por la compuerta 74LS04, y la tecnología CMOS (Complementary Metal-Oxide-Semiconductor) representada por la compuerta CD4069. El enfoque central radica en analizar y comparar cómo estas tecnologías influyen en las propiedades y el rendimiento de las compuertas negadoras en diferentes contextos de operación.
+Este proyecto tiene como objetivo principal la simulación y documentación detallada de las características de compuertas negadoras utilizando dos tecnologías distintas: la tecnología TTL (Transistor-Transistor Logic) representada por la compuerta 74LS04, y la tecnología CMOS (Complementary Metal-Oxide-Semiconductor) representada por la compuerta CD4069. El enfoque central radica en analizar y comparar estas tecnologías en diferentes contextos aplicaciones.
 
 ## Autores
 
