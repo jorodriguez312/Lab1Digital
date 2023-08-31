@@ -38,7 +38,18 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/47baf131a55bd951443e7ea5dbc49521023abd5f/Imagenes/circuito%20CD4069.png)
 
- 
+ Con la anterior información se construyó la siguiente tabla:
+| Característica   | 74LS04         | CD4069         |
+|------------------|----------------|----------------|
+| Tipo de compuerta| NOT (NO)       | NOT (NO)       |
+| Número de puertas| 6 por chip     | 6 por chip     |
+| Alimentación     | 5V             | 3V - 18V       |
+| Consumo de energía| Moderado       | Bajo           |
+| Velocidad        | Alta           | Media          |
+| Tiempo de retardo| Bajo           | Moderado       |
+| Uso común        | Ampliamente usado| Ampliamente usado|
+| Salidas de drenaje abiertas| No | Sí          |
+| Tolerancia al voltaje| Moderada    | Alta          |
 
 ## Simulaciones
 
