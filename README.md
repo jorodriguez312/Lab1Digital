@@ -45,6 +45,8 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 
 ## Aplicación
 
+A continuación se presentan algunas aplicaciones básicas para cada compuerta.
+
 Circuito propuesto para la compuerta 74LS04.
 
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoTTL.jpeg)
