@@ -37,14 +37,6 @@ Existen varios tipos de compuertas lógicas, cada una con una función específi
 
 - **Compuerta NOR:** Es una compuerta OR seguida por una compuerta NOT. Produce una salida inversa a la de una compuerta OR.
 
-**3. Representación y Símbolos:**
-
-Cada tipo de compuerta lógica se representa con un símbolo específico en los diagramas de circuitos. Por ejemplo, una compuerta AND se representa con un símbolo que tiene dos entradas y una salida, mientras que una compuerta NOT se representa con un círculo que tiene una entrada y una salida.
-
-**4. Circuitos Combinacionales:**
-
-Los circuitos combinacionales están formados por una combinación de compuertas lógicas conectadas de manera que generan una salida basada únicamente en los valores presentes en las entradas en ese momento. Estos circuitos no tienen memoria interna y su salida depende exclusivamente de la configuración actual de las entradas.
-
 - **Documentación**
 
 A continuación se presenta una imágen en la que se detalla el circuito equivalente de las compuertas 74LS04 Y CD4069.
