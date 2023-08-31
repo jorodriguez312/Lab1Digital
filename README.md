@@ -20,7 +20,7 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 ## Simulaciones
 
 
-
+ssss
 ## Aplicación
 
 Instrucciones sobre cómo usar el proyecto una vez instalado.
