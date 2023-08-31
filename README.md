@@ -49,8 +49,8 @@ A continuación se presentan algunas aplicaciones básicas para cada compuerta.
 
 Circuito propuesto para la compuerta 74LS04.
 
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoTTL.png)
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoTTL1.png)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoTTL.png)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoTTL1.png)
 
 Circuito propuesto para la compuerta CD4069.
 
