@@ -46,8 +46,21 @@ Es un dispositivo semiconductor de tres terminales que se puede usar para amplif
 - **Transistores BJT.**
   Fué el primer tipo de transistor que se inventó, y funciona con una unión bipolar como su nombre lo indica. Puede ser de tipo npn si la región del emisor y la del colector son de tipo n y la de la base tipo p. Por el contrario si el emisor y el colector son de tipo p y la base de tipo n será de tipo pnp. Para aplicacipnes en circuitos lógicos se debe utilizar este transistor en la región de corte y la de saturación que dependen de la polarización que se aplique al transistor; las uniones emisor-base en el modo de corte deben estar en reversa como la colector-base, mientras que para la región de saturación ambas uniones deben estar polarizaddas directamente.
   
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/656e6909a79fa5ab6011277c1a7ffbc6bec903a1/Imagenes/estructura%20BJT.png)
+  
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/656e6909a79fa5ab6011277c1a7ffbc6bec903a1/Imagenes/BJT.png)
+  
 - **Transistores MOSFET**.
   Reciben este nombre debido a que funcionan con campos eléctricos y es el tipo de transistor más usado. Pueden ser NMOS si el canal donde fluye la corriente del drain source tiene una region inducida n, se forman en un sustrato tipo P. También pueden ser PMOS si el canal inducido es tipo P y el sustrato tipo N, ademas también existe un tercer tipo que se compone de transistores NMOS y PMOS. Los MOSFET se pueden usar como interruptores cuando se encuentran en la región de corte VGS<VT.
+
+
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/656e6909a79fa5ab6011277c1a7ffbc6bec903a1/Imagenes/estructura%20mos.png)
+  
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/656e6909a79fa5ab6011277c1a7ffbc6bec903a1/Imagenes/mos.png)
+
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/656e6909a79fa5ab6011277c1a7ffbc6bec903a1/Imagenes/grafica%20mos.png)
+
+  
 
 **4. Circuitos integrados(CI).**
 Los circuitos integrados son cristales de silicio que se denominan chips y contienen componentes para construir compuertas digitales, las cuales se interconectan dentro del chip. El montaje del chip es en un recipiente de cerámica o plástico y las conexiones son soldadadas en terminales externas, la cantidad de terminales puede ir de menos de 10 a miles, y de acuerdo a eso se pueden clasificar en:
