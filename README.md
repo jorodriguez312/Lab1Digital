@@ -194,7 +194,7 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 - **Compuerta 74LS04.**
 - **Compuerta CD4069.**
 - **Resistencias de 10kOhms.**
-- **Resistencias de 330Ohms.**
+- **Resistencias de 220Ohms.**
 
 ## Simulaciones
 
@@ -213,6 +213,7 @@ Circuito propuesto para la compuerta CD4069.
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoCMOS.png)
 
 ## Resultados
+
 
 ## Anàlisis de resultados
 
