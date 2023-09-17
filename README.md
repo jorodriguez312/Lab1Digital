@@ -284,6 +284,12 @@ Circuito propuesto para la compuerta CD4069.
        
 
 ## Anàlisis de resultados
+|   Frequency (kHz)   |   Period (µs)   |   Time/Division (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
+|---------------------|------------------|----------------------------|----------------|----------------|
+|        100 kHz      |       10 µs      |           10               |        2 ns     |       2 ns     |
+|        200 kHz      |        5 µs      |           10               |        2 ns     |       2 ns     |
+|        500 kHz      |        2 µs      |           10               |        2 ns     |       2 ns     |
+|         1 MHz       |        1 µs      |           10               |        2 ns     |       2 ns     |
 
 ## Conclusiones
 
