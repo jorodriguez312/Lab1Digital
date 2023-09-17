@@ -194,7 +194,10 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 - **Resistencias de 220Ohms.**
 
 ## Simulaciones
-
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl_grafico.PNG)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos.PNG)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos_grafico.PNG)
 
 ## Aplicación
 
@@ -210,6 +213,7 @@ Circuito propuesto para la compuerta CD4069.
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoCMOS.png)
 
 ## Resultados
+ MrBrightside8-patch-14-1
 - **Compuerta CD4069**
   
   - 1. Circuito.
