@@ -1,4 +1,4 @@
-# COMPARACIÓN DE TECNOLOGÍA
+# COMPARACIÓN DE TECNOLOGÍAS CMOS Y TTL
 
 ## Autores
 
@@ -96,32 +96,51 @@ Los circuitos integrados son cristales de silicio que se denominan chips y conti
 
 - **TTL Schottky 74S:** Usa la tecnología Schottky que consiste en la unión de un metal y un semiconductor para formar transistores, las ventajas que trajo esta tecnlogía es eliminar el retardo de tiempo de almacenamiento lo que impide que el transistor entre en saturación, lo que genera un aumento en la rapidez sin generar un gran aumento en la potencia consumida.
 
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/195adb18e656a4594c4a66ab0a66f6c19662bc86/Imagenes/Schottkey.png)
+
 - **TTL Schottky 74LS:** funciona de forma similar que la Schottky pero sacrificando un poco la rapidez para obtener un consumo menor de energía (apróximadamente una quinta de parte de la potencia consumida por una TTL estándar).
 
 - **TTL Schottky avanzado 74AS:** Esta compuerta tiene menor retardo que la serie Schottky y a la vez un menor consumo de potencia.
 
 - **TTL Scottky avanzado de baja potencia 74ALS:** Es la compuerta con menor porducto rapidez-potencia por lo que se considera el tipo de compuerta más eficiente.
 
-- **TTL rápida 74S:** Se considera la compuerta más rapida.  
+- **TTL rápida 74S:** Se considera la compuerta más rapida.
+
+![Images](https://github.com/jorodriguez312/Lab1Digital/blob/f78796e3f9193993322edecbe6e41fc173938bf6/Imagenes/tabla%20TTL.png)
 
 Adicionalmente las series TTL mencionadas previamente pueden tener tres configuraciones diferentes de salidas las cuáles son:
 
 - **Salida de colector abierto:** Posee una configuración similar al circuito de la familia DTL pero reemplaza los diodos por transistores, recibe este nombre debido a que la salida ed tensión se mide con respecto al transistor Q3, el circuito tiene una resistencia conectada a Vcc para generar un efecto "pull up" que sube el nivel alto de tensión cuando Q3 está apagado, así la salida no quedará en circuito abierto. El nivel bajo de la compuerta ocurre cuando el voltaje es de 0.2V, mientras que el alto se obtiene en un rango de tensiones de 2.7V a 5V. Este tipo de salida representa una disminución de tiempo de retardo y reducción de tiempo de apagado respecto a las compuertas DTL.
 
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/195adb18e656a4594c4a66ab0a66f6c19662bc86/Imagenes/open%20collector.png)
+
 - **Salida en totem pole:** Este tipo de configuración reduce el tiempo de retardo de la salida de colector abierto aunque con un funcionamiento similar, de igual manera la disipación de potencia es mayor lo que genera que no se puedan conectar dos o más compuertas con este tipo de salida ya que se genera una gran cantidad de calor que dañaría los circuitos.
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/195adb18e656a4594c4a66ab0a66f6c19662bc86/Imagenes/totem%20pole.png)
 
 -  **Compuerta de tres estados:** Es un tipo de configuración similar a totem pole que permite la conexión de varias de estas salidas para formar un bus común. Los estados que posee esta serie son los siguientes:
   
   - 1. Estado de bajo nivel: Se tiene cuando el transistor inferior del circuito está encendido y el de arriba apagado.
 
   - 2. Estado de alto nivel: Ocurre cuando el transistor superior se enciende y el de abajo se apaga.
+       
+  - 3.  En este estado ambos transistores tomtem pole están apagados por lo que hay un circuito abierto o alata impedancia, lo que permie la conexión de varias salidas totem pole, se tiene un retardo de habilitación de salida mayor al de la deshabilitación de esta.
    
-  -3. En este estado ambos transistores tomtem pole están apagados por lo que hay un circuito abierto o alata impedancia, lo que permie la conexión de varias salidas totem pole, se tiene un retardo de habilitación de salida mayor al de la deshabilitación de esta.
+  
 
-- 
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/195adb18e656a4594c4a66ab0a66f6c19662bc86/Imagenes/tres%20estados.png)
 
+_ **Lógica acoplada por emisor ECL:** Es una familia lógica digital no saturada, esto hace que se logren tiempos de retardo de 1 a 2 ns por lo que la hace la familia lógica más rapida, pero también se caracteriza por no tener una alta resistencia al ruido alta, también tiene el consumo más alto de energía. Las tensión de estado alto es de -0.8V y para estado bajo de -1.8V, además usa resistencias bajas para generar un efecto "pull down" y que fluya la corriente. Debido a que este circuito tiene un amplificador deiferencial posee una alta impedancia lo que permite que tenga un alto fan-out. Esta familia posee una salida de compuerta OR y otra de tipo NOR. 
 
-**5.2 CMOS:**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/2102e0c6e7fe71f564562a0a933f7bd4bae9f52d/Imagenes/ECL.png)
+
+En general las ventajas que presenta el uso de compuertas lógicas de la familia TTL en cualquiera de sus series es que poseen un tiempo de retardo menor que otras familias, por lo que se usan en aplicaciones de alta velocidad, pero esto implica un consumo mayor de potencia por lo que no se pueden usar muchas compuertas de esta familia en un mismo circuito. En comparación con TTL también presenta la ventaja con respecto a CMOS de que se pueden dejar algunos de sus puertos de entrada sin conectar, lo que en CMOS genera inconvenientes.
+
+**5.2 CMOS:** Aprovechan el uso de MOS complementarios de tipo p y de tipo n y se caracterizan por su bajo consumo de potencia en estado estático, mientras que para frecuencias de señal altas su uso no es recomendado debido a los picos de tensión que ocurren en uno de los transistores del circuito. Normalmente la alimentación de estas compuertas está está en el rango de 3V a 18V, si se usa un voltaje de alimentación mayor se reduce el tiempo de retardo y se aumenta la tolerancia de ruido, pero esto conlleva a un consumo de potencia mayor; con 5V de alimentación varía el retardo entre 5 y 20ns; su margen de ruido suele ser del 40% del voltaje de alimentación, y su fan-out suele ser de 30 cuando se opera a una frecuencia de 1MHz, este valor disminuye cuando la frecuencia aumenta.
+
+Una de las series de CMOS son la 74C que es compatible en cuanto a terminales y funcionalidad con las compuertas TTL. La ventaja que representa respecto a TTL es que ocupa un menor espacio por lo que en una determinada areea se puede colocar mmayor cantidaad de circuitos, además consumen menos potencia y tienen mayor inmunidad al ruido.
+
+![Images](https://github.com/jorodriguez312/Lab1Digital/blob/f78796e3f9193993322edecbe6e41fc173938bf6/Imagenes/cmos%20circuits.png)
 
 
 
