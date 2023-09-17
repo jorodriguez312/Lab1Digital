@@ -142,9 +142,6 @@ Una de las series de CMOS son la 74C que es compatible en cuanto a terminales y 
 
 ![Images](https://github.com/jorodriguez312/Lab1Digital/blob/f78796e3f9193993322edecbe6e41fc173938bf6/Imagenes/cmos%20circuits.png)
 
-
-
-
 - **Documentación**
 
 A continuación se presenta una imágen en la que se detalla el circuito equivalente de las compuertas 74LS04 Y CD4069.
@@ -216,13 +213,75 @@ Circuito propuesto para la compuerta CD4069.
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/CircuitoCMOS.png)
 
 ## Resultados
-|   Frequency (kHz)   |   Period (µs)   |   Time/Division (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
-|---------------------|------------------|----------------------------|----------------|----------------|
-|        100 kHz      |       10 µs      |           10               |        _ ns     |       _ ns     |
-|        200 kHz      |        5 µs      |           10               |        _ ns     |       _ ns     |
-|        500 kHz      |        2 µs      |           10               |        _ ns     |       _ ns     |
-|         1 MHz       |        1 µs      |           10               |        _ ns     |       _ ns     |
+ MrBrightside8-patch-14-1
+- **Compuerta CD4069**
+  
+  - 1. Circuito.
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/194af7dece9b2c6b8e05f9ce2457937969ca3167/Imagenes/CIRCUITO%20CD4069.jpeg)
+       
+    2. Frecuencia 1kHz.
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/194af7dece9b2c6b8e05f9ce2457937969ca3167/Imagenes/CD4069%201KHZ.jpeg)
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%201kHZ%20(2).jpeg)
+       
+    3. Frecuencia 100kHz.
+        
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%20100KHZ%20ONDA.jpeg)
 
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%20100KHZ.jpeg)
+       
+    4. Frecuencia 200kHz.
+
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%20200KHZ.jpeg)
+
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%20200KHZ%20(2).jpeg)
+       
+    5. Frecuencia 500kHz.
+   
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%20500KHZ.jpeg)
+
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%20500KHZ%20(2).jpeg)
+       
+    6. Frecuencia 1000kHz.
+   
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/CD4069%201000KHZ.jpeg)
+        
+    7. Función de transferencia.
+   
+        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/e1b711a436e8e0c991c7a3db05231e777f6b8145/Imagenes/F.TRANSFERENCIA%20CD4069.jpeg)
+        
+- **Compuerta 74LS04**
+  
+  - 1. Circuito.
+
+      ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/ea0f652cf4e8867d9b771b992ee2b16847ff458d/Imagenes/CIRCUITO%2074LSO4.jpeg)
+
+    2. Frecuencia a 1kHz.
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/c4514da3d5a288d1d951d1e0519fd7c7f98a42ac/Imagenes/74LSO4%201KHZ.jpeg)
+       
+    3. Frecuencia a 10kHz.
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/c4514da3d5a288d1d951d1e0519fd7c7f98a42ac/Imagenes/74LSO4%2010KHZ.jpeg)
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/c4514da3d5a288d1d951d1e0519fd7c7f98a42ac/Imagenes/74LSO4%2010KHZ%20RETARDO.jpeg)
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/c4514da3d5a288d1d951d1e0519fd7c7f98a42ac/Imagenes/74LSO4%20RETARDO%2010KHZ.jpeg)
+       
+    4. Frecuencia a 100kHz.
+       
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/26902e44c404d2b0c0b0442fc64311e6c6b32ab5/Imagenes/74LSO4%20100KHZ.jpeg)
+       
+    5. Tensión de la salida alta y baja.
+   
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/26902e44c404d2b0c0b0442fc64311e6c6b32ab5/Imagenes/1%20Y%200%20L%C3%93GICOS%2074LSO4.jpeg)
+       
+    6. Función de tranferencia.
+   
+       ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/ea0f652cf4e8867d9b771b992ee2b16847ff458d/Imagenes/Transferencia%2074LSO4.jpeg)
+       
 
 ## Anàlisis de resultados
 
