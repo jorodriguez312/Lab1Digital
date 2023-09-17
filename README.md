@@ -197,10 +197,10 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 - **Resistencias de 220Ohms.**
 
 ## Simulaciones
-- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.png)
-- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl_grafico.png)
-- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos.png)
-- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos_grafico.png)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl_grafico.PNG)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos.PNG)
+- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos_grafico.PNG)
 
 ## Aplicación
 
