@@ -193,30 +193,44 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 - **Resistencias de 10kOhms.**
 - **Resistencias de 220Ohms.**
 
-## Simulaciones
-- **Compuerta CD4069**
-  -1. Circuito implementado para la simulación con la compuerta negadora 74LS04:
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
- 2. Frecuencia 1kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl1khz.PNG)
- 3. Frecuencia 10kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl10kHz.PNG)
- 4. Frecuencia 100kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100kHz.PNG)
+Entendido, aquí tienes la estructura con números y letras en lugar de números:
 
-**Compuerta CD4069**
--1. Circuito implementado para la simulación con la compuerta negadora CD4069:
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos.PNG)
-2. Frecuencia 1kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1khz.PNG)
-3. Frecuencia 100kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1khz.PNG)
-4. Frecuencia 200kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos200khz.PNG)
-5. Frecuencia 500kHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos500khz.PNG)
-6. Frecuencia 1MHz
-![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1Mhz.PNG)
+## Simulaciones
+
+### Compuerta CD4069
+
+a. Circuito implementado para la simulación con la compuerta negadora 74LS04:
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
+
+b. Frecuencia 1 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl1khz.PNG)
+
+c. Frecuencia 10 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl10kHz.PNG)
+
+d. Frecuencia 100 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100kHz.PNG)
+
+### Compuerta CD4069
+
+a. Circuito implementado para la simulación con la compuerta negadora CD4069:
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos.PNG)
+
+b. Frecuencia 1 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1khz.PNG)
+
+c. Frecuencia 100 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos100khz.PNG)
+
+d. Frecuencia 200 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos200khz.PNG)
+
+e. Frecuencia 500 kHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos500khz.PNG)
+
+f. Frecuencia 1 MHz
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1Mhz.PNG)
+
 ## Aplicación
 
 A continuación se presentan algunas aplicaciones básicas para cada compuerta.
