@@ -223,7 +223,7 @@ c. Frecuencia 100 kHz
    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos100khz.PNG)
 
 d. Frecuencia 200 kHz
-   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos200khz.PNG)
+   ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos200kHz.PNG)
 
 e. Frecuencia 500 kHz
    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos500khz.PNG)
