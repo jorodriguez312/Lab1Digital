@@ -194,11 +194,24 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 - **Resistencias de 220Ohms.**
 
 ## Simulaciones
-- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
-- ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl_grafico.PNG)
+1.1. **Compuerta 74LS04**
+Circuito implementado para la simulación con la compuerta negadora 74LS04:
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
+1.2. Frecuencia 1kHz
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl1khz.PNG)
+1.3. Frecuencia 10kHz
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/tt l10khz.PNG)
+1.4. Frecuencia 100kHz
+![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100khz.PNG)
+2.1. **Compuerta CD4069**
+ircuito implementado para la simulación con la compuerta negadora CD4069:
 - ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos.PNG)
+2.2. Frecuencia 1kHz
 - ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_cmos_grafico.PNG)
-
+2.3. Frecuencia 100kHz
+3.4. Frecuencia 200kHz
+3.5 Frecuencia 500kHz
+3.5 Frecuencia 1MHz
 ## Aplicación
 
 A continuación se presentan algunas aplicaciones básicas para cada compuerta.
@@ -283,13 +296,12 @@ Circuito propuesto para la compuerta CD4069.
        ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/ea0f652cf4e8867d9b771b992ee2b16847ff458d/Imagenes/Transferencia%2074LSO4.jpeg)
        
 
-## Anàlisis de resultados
-|   Frequency (kHz)   |   Period (µs)   |   Time/Division (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
-|---------------------|------------------|----------------------------|----------------|----------------|
-|        100 kHz      |       10 µs      |           10               |        2 ns     |       2 ns     |
-|        200 kHz      |        5 µs      |           10               |        2 ns     |       2 ns     |
-|        500 kHz      |        2 µs      |           10               |        2 ns     |       2 ns     |
-|         1 MHz       |        1 µs      |           10               |        2 ns     |       2 ns     |
+## Análisis de resultados
+|   Frecuencia (kHz)   |   Período (µs)   |   Tiempo por División (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
+|---------------------|------------------|--------------------------------|----------------|----------------|
+|        1 kHz        |       1000 µs       |           1                    |       2 ns     |       2 ns     |
+|       10 kHz        |      100 µs      |           1                    |       2 ns     |       2 ns     |
+|      100 kHz        |       10 µs      |           1                    |       2 ns     |       2 ns     |
 
 ## Conclusiones
 
