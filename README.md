@@ -72,7 +72,7 @@ Los circuitos integrados son cristales de silicio que se denominan chips y conti
 -  **Dispositivos de integración a gran escala(LSI).** Están compuestos por miles de compuerta e incluyen sistemas digitales como procesadores, chips de memoria y dispositivos de lógica programable.
 -  **Dispositivos de integración a muy grande escala(VLSI)** Contienen cientos de miles de compuertas y como ejemplo están las grandes matrices de memoria y microprocesadores complejos.
 
--  **Familias lógicas.** Los circuitos integrados también se pueden clasificar por la tecnología específica de circuitos que lo componen, y es aquí donde entran las familias lógicas, entre las cuáles se encuentran: TTL lógica transistor-transistor, ECL lógica acoplada por emisor, MOS metal-óxido-semiconductor, CMOS meta-óxido-semiconductor complementario.
+-  **5. Familias lógicas.** Los circuitos integrados también se pueden clasificar por la tecnología específica de circuitos que lo componen, y es aquí donde entran las familias lógicas, entre las cuáles se encuentran: TTL lógica transistor-transistor, ECL lógica acoplada por emisor, MOS metal-óxido-semiconductor, CMOS meta-óxido-semiconductor complementario.
 
 -  **Caracteísticas de las familias lógicas:**
 
@@ -84,11 +84,44 @@ Los circuitos integrados son cristales de silicio que se denominan chips y conti
 
 -  **Retardo de propagación:** Tiempo medio de transicion que se tarda la señal en transformar la entrada en la salida, se relaciona inversamente a la velocidad de de operación.
 
--  **Margen de ruido:** Tensión externa máxima de ruido que se le puede añadir a una señal de entrada sin que se exceda el margen de "0" lógico o de "1" lógico.
+-  **Margen de ruido:** Tensión externa máxima de ruido que se le puede añadir a una señal de entrada sin que se exceda el margen de "0" lógico o de "1" lógico.+
+  
+**5.1 TLL:** Son circuitos integrados los cuales integran una Lógica Transistor-Transistor de ahí su nombre. Fueron una evolución de las tecnologias RTL(Lógica Transistor-Resistencia) y de la DTL (Lógica Transistor-Diodo). Se caracterizan porque usan transistores BJT en sus circuitos y se identifican porque su identificación comienza con el número 74; también se pueden clasificar por el producto rapidez-potencia que se mide en pJ, este producto también se puede entender como el tiempo de retardo por la disipación de potencia y según este parámetro se tienen las siguientes circuitos TTL:
 
-- **TTL**
+- **Estandar 74:** Fue la primera compuerta de tipo TTL, si se disminuyen los valores de las resistencias del circuito se puede obtener un menor tiempo de retardo pero al costo de un consumo mayor de potencia debido a que las resistencias consumen más corriente.
 
-- **CMOS**
+- **Baja potencia 74L:** En este tipo de compuerta las resistencias tienen valores altos para que el consumo de potencia sea menor, pero lo que cause un tiempo de retardo mayor.
+
+- **Alta velocidad 74H:** Al contrario del tipo de baja de potencia, esta compuerta usa valores bajos de resistencias para obtener una velocidad mayor tiempo.
+
+- **TTL Schottky 74S:** Usa la tecnología Schottky que consiste en la unión de un metal y un semiconductor para formar transistores, las ventajas que trajo esta tecnlogía es eliminar el retardo de tiempo de almacenamiento lo que impide que el transistor entre en saturación, lo que genera un aumento en la rapidez sin generar un gran aumento en la potencia consumida.
+
+- **TTL Schottky 74LS:** funciona de forma similar que la Schottky pero sacrificando un poco la rapidez para obtener un consumo menor de energía (apróximadamente una quinta de parte de la potencia consumida por una TTL estándar).
+
+- **TTL Schottky avanzado 74AS:** Esta compuerta tiene menor retardo que la serie Schottky y a la vez un menor consumo de potencia.
+
+- **TTL Scottky avanzado de baja potencia 74ALS:** Es la compuerta con menor porducto rapidez-potencia por lo que se considera el tipo de compuerta más eficiente.
+
+- **TTL rápida 74S:** Se considera la compuerta más rapida.  
+
+Adicionalmente las series TTL mencionadas previamente pueden tener tres configuraciones diferentes de salidas las cuáles son:
+
+- **Salida de colector abierto:** Posee una configuración similar al circuito de la familia DTL pero reemplaza los diodos por transistores, recibe este nombre debido a que la salida ed tensión se mide con respecto al transistor Q3, el circuito tiene una resistencia conectada a Vcc para generar un efecto "pull up" que sube el nivel alto de tensión cuando Q3 está apagado, así la salida no quedará en circuito abierto. El nivel bajo de la compuerta ocurre cuando el voltaje es de 0.2V, mientras que el alto se obtiene en un rango de tensiones de 2.7V a 5V. Este tipo de salida representa una disminución de tiempo de retardo y reducción de tiempo de apagado respecto a las compuertas DTL.
+
+- **Salida en totem pole:** Este tipo de configuración reduce el tiempo de retardo de la salida de colector abierto aunque con un funcionamiento similar, de igual manera la disipación de potencia es mayor lo que genera que no se puedan conectar dos o más compuertas con este tipo de salida ya que se genera una gran cantidad de calor que dañaría los circuitos.
+
+-  **Compuerta de tres estados:** Es un tipo de configuración similar a totem pole que permite la conexión de varias de estas salidas para formar un bus común. Los estados que posee esta serie son los siguientes:
+  
+  - 1. Estado de bajo nivel: Se tiene cuando el transistor inferior del circuito está encendido y el de arriba apagado.
+
+  - 2. Estado de alto nivel: Ocurre cuando el transistor superior se enciende y el de abajo se apaga.
+   
+  -3. En este estado ambos transistores tomtem pole están apagados por lo que hay un circuito abierto o alata impedancia, lo que permie la conexión de varias salidas totem pole, se tiene un retardo de habilitación de salida mayor al de la deshabilitación de esta.
+
+- 
+
+
+**5.2 CMOS:**
 
 
 
