@@ -211,6 +211,16 @@ c. Frecuencia 10 kHz
 d. Frecuencia 100 kHz
      ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100kHz.PNG)
      Diferencia: 5.1 ns 
+
+Se resumen los datos en la siguiente tabla:
+
+| Frecuencia   | Periodo     | Tiempo de Retraso (Diferencia) |
+|--------------|-------------|-------------------------------|
+| 1 kHz        | 1 us        | 5.5 ns                        |
+| 10 kHz       | 100 us      | 5.1 ns                        |
+| 100 kHz      | 10 us       | 5.1 ns                        |
+
+     
 ### Compuerta CD4069
 
 a. Circuito implementado para la simulación con la compuerta negadora CD4069:
@@ -232,6 +242,18 @@ e. Frecuencia 500 kHz
 f. Frecuencia 1 MHz
      ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1Mhz.PNG)
     Diferencia: 120 ns
+
+Se resumen los datos en la siguiente tabla:
+
+| Frecuencia   | Periodo     | Tiempo de Retraso (Diferencia) |
+|--------------|-------------|-------------------------------|
+| 1 kHz        | 1 us        | 136.4 ns                      |
+| 100 kHz      | 10 us       | 100 ns                        |
+| 200 kHz      | 5 us        | 237.3 ns                      |
+| 500 kHz      | 2 us        | 136.7 ns                      |
+| 1 MHz        | 1 us        | 120 ns                        |
+
+
 ## Aplicación
 
 A continuación se presentan algunas aplicaciones básicas para cada compuerta.
