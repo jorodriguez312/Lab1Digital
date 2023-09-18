@@ -337,13 +337,13 @@ Circuito propuesto para la compuerta CD4069.
 
 ## Conclusiones
 A partir del análisis de las características de cada una de las tecnologías incluyendo su funcionamiento, estructura interna (tipos de transistores y su configuración) se determino que lasa ventajas/desventajas de estas tecnologías son las siguientes: Se han analizado diversas características de estas tecnologías, incluyendo su funcionamiento, su base en el álgebra booleana, su estructura interna con transistores y sus diferentes familias lógicas. Se destacan algunas ventajas y desventajas de ambas tecnologías:
-## TTL (74LS04):
+### TTL (74LS04):
   - Mayor velocidad y menor tiempo de retardo.
   - Tolerancia moderada al voltaje.
   - Consumo moderado de energía.
   - Funciona bien en aplicaciones de alta velocidad.
   - Puede dejar algunas entradas sin conectar sin problemas.
-## CMOS (CD4069):
+### CMOS (CD4069):
 
   - Bajo consumo de energía en estado estático.
   - Tolerancia alta al voltaje.
