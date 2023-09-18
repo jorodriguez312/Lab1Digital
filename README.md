@@ -274,7 +274,7 @@ Se resumen los datos de Delay para la compuerta CMOS CD4069 en la siguiente tabl
 | 500 kHz      | 2 us        | 136.7 ns                      |
 | 1 MHz        | 1 us        | 120 ns                        |
 
-Tiempo de retraso tecnología CMOS.
+Tabla de Tiempo de retraso tecnología CMOS.
 
 ## Aplicación
 
