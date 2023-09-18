@@ -201,21 +201,21 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 
 a. Circuito implementado para la simulación con la compuerta negadora 74LS04:
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
 
 b. Frecuencia 1 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl1khz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl1khz.PNG)
 Diferencia: 5.5 ns
 
 c. Frecuencia 10 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl10kHz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl10kHz.PNG)
 Diferencia: 5.1 ns
 
 d. Frecuencia 100 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100kHz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100kHz.PNG)
 Diferencia: 5.1 ns
 
 Se resumen los datos de Delay para la compuerta TTL 74LS04 en la siguiente tabla:
@@ -233,27 +233,27 @@ a. Circuito implementado para la simulación con la compuerta negadora CD4069:
 
 b. Frecuencia 1 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1khz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1khz.PNG)
 Diferencia: 136.4 ns
 
 c. Frecuencia 100 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos100khz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos100khz.PNG)
 Diferencia: 100 ns
 
 d. Frecuencia 200 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos200kHz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos200kHz.PNG)
 Diferencia: 237.3 ns
 
 e. Frecuencia 500 kHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos500khz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos500khz.PNG)
 Diferencia: 136.7 ns
 
 f. Frecuencia 1 MHz
 
-    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1Mhz.PNG)
+  ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1Mhz.PNG)
 Diferencia: 120 ns
 
 Se resumen los datos de Delay para la compuerta CMOS CD4069 en la siguiente tabla:
