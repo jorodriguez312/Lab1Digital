@@ -319,21 +319,24 @@ Circuito propuesto para la compuerta CD4069.
 
 ### Compuerta 74LS04
 
+### Compuerta 74LS04
+
 |   Frecuencia (kHz)   |   Período (µs)   |   Tiempo por División (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
 |---------------------|------------------|--------------------------------|----------------|----------------|
-|        1 kHz        |       1000 µs       |           1                    |       2 ns     |       2 ns     |
-|       10 kHz        |      100 µs      |           1                    |       2 ns     |       2 ns     |
-|      100 kHz        |       10 µs      |           1                    |       2 ns     |       2 ns     |
+|        1 kHz        |       1000 µs       |           50                   |       18 ns     |       18 ns     |
+|       10 kHz        |      100 µs      |           25                    |       21 ns     |       21 ns     |
+|      100 kHz        |       10 µs      |           50                    |       21.2 ns     |       10 ns     |
 
 ### Compuerta CD4069
 
 |   Frecuencia (kHz)   |   Período (µs)   |   Tiempo por División (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
 |---------------------|------------------|--------------------------------|----------------|----------------|
-|        1 kHz        |       1 ms       |           1                    |       2 ns     |       2 ns     |
-|      100 kHz        |      10 µs       |           1                    |       2 ns     |       2 ns     |
-|      200 kHz        |       5 µs       |           1                    |       2 ns     |       2 ns     |
-|      500 kHz        |       2 µs       |           1                    |       2 ns     |       2 ns     |
-|     1000 kHz        |       1 µs       |           1                    |       2 ns     |       2 ns     |
+|        1 kHz        |       100 µs       |           250                    |       140.0 ns     |       128.0 ns   |
+|      100 kHz        |      10 µs       |           50                    |        84 ns     |       84 ns     |
+|      200 kHz        |       5 µs       |           50                    |       113 ns     |       113 ns     |
+|      500 kHz        |       2 µs       |           100                    |       142 ns     |       142 ns     |
+|     1000 kHz        |       1 µs       |           100                    |       152 ns     |       152 ns     |
+
 
 ## Conclusiones
 A partir del análisis de las características de cada una de las tecnologías incluyendo su funcionamiento, estructura interna (tipos de transistores y su configuración) se determino que lasa ventajas/desventajas de estas tecnologías son las siguientes: Se han analizado diversas características de estas tecnologías, incluyendo su funcionamiento, su base en el álgebra booleana, su estructura interna con transistores y sus diferentes familias lógicas. Se destacan algunas ventajas y desventajas de ambas tecnologías:
