@@ -212,7 +212,7 @@ d. Frecuencia 100 kHz
      ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/ttl100kHz.PNG)
      Diferencia: 5.1 ns 
 
-Se resumen los datos en la siguiente tabla:
+Se resumen los datos de Delay para la compuerta TTL 74LS04 en la siguiente tabla:
 
 | Frecuencia   | Periodo     | Tiempo de Retraso (Diferencia) |
 |--------------|-------------|-------------------------------|
@@ -243,16 +243,16 @@ f. Frecuencia 1 MHz
      ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/cmos1Mhz.PNG)
     Diferencia: 120 ns
 
-Se resumen los datos en la siguiente tabla:
+Se resumen los datos de Delay para la compuerta CMOS CD4069en la siguiente tabla:
 
-| Frecuencia   | Periodo     | Tiempo de Retraso (Diferencia) |
+| Frecuencia   | Periodo     | Delay (Diferencia) |
 |--------------|-------------|-------------------------------|
 | 1 kHz        | 1 us        | 136.4 ns                      |
 | 100 kHz      | 10 us       | 100 ns                        |
 | 200 kHz      | 5 us        | 237.3 ns                      |
 | 500 kHz      | 2 us        | 136.7 ns                      |
 | 1 MHz        | 1 us        | 120 ns                        |
-
+Tiempo de retraso tecnología CMOS.
 
 ## Aplicación
 
