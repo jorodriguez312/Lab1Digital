@@ -364,8 +364,6 @@ Circuito propuesto para la compuerta CD4069.
 
 ### Compuerta 74LS04
 
-### Compuerta 74LS04
-
 |   Frecuencia (kHz)   |   Período (µs)   |   Tiempo por División (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
 |---------------------|------------------|--------------------------------|----------------|----------------|
 |        1 kHz        |       1000 µs       |           50                   |       18 ns     |       18 ns     |
@@ -382,9 +380,12 @@ Circuito propuesto para la compuerta CD4069.
 |      500 kHz        |       2 µs       |           100                    |       142 ns     |       142 ns     |
 |     1000 kHz        |       1 µs       |           100                    |       152 ns     |       152 ns     |
 
+- A partir de los tiempos tP HL y tP LH se determino que en términos de velocidad y tiempo de retardo, las compuertas TTL (74LS04) demostraron un rendimiento constante y rápido en todas las frecuencias probadas, con un tiempo de retardo inferior a 6 ns en todas las situaciones.
+- Por otro lado, las compuertas CMOS (CD4069) mostraron un mayor tiempo de retardo en comparación con TTL, especialmente a frecuencias más bajas. Sin embargo, a medida que aumentamos la frecuencia, el tiempo de retardo de las compuertas CMOS disminuyó significativamente, siendo más competitivo en frecuencias más altas.
+- Al comparar los datos experimentales con los obtenidos en la simulación se obtuvieron valores coherentes y cercanos. Sin embargo  también se obtuvieron diferencias a mediada que se aumentaba la frecuencia, posiblemente debido a que en rangos de frecuencia alto la señal tenia mayores niveles de ruido.
 
 ## Conclusiones
-A partir del análisis de las características de cada una de las tecnologías incluyendo su funcionamiento, estructura interna (tipos de transistores y su configuración) se determino que lasa ventajas/desventajas de estas tecnologías son las siguientes: Se han analizado diversas características de estas tecnologías, incluyendo su funcionamiento, su base en el álgebra booleana, su estructura interna con transistores y sus diferentes familias lógicas. Se destacan algunas ventajas y desventajas de ambas tecnologías:
+- A partir del análisis de las características de cada una de las tecnologías incluyendo su funcionamiento, estructura interna (tipos de transistores y su configuración) se determino que lasa ventajas/desventajas de estas tecnologías son las siguientes: Se han analizado diversas características de estas tecnologías, incluyendo su funcionamiento, su base en el álgebra booleana, su estructura interna con transistores y sus diferentes familias lógicas. Se destacan algunas ventajas y desventajas de ambas tecnología:
 ### TTL (74LS04):
   - Mayor velocidad y menor tiempo de retardo.
   - Tolerancia moderada al voltaje.
