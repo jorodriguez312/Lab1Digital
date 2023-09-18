@@ -197,7 +197,7 @@ Entendido, aquí tienes la estructura con números y letras en lugar de números
 
 ## Simulaciones
 
-### Compuerta CD4069
+### Compuerta 74LS04
 
 a. Circuito implementado para la simulación con la compuerta negadora 74LS04:
    ![Imagen](https://github.com/jorodriguez312/Digital/blob/main/Imagenes/simulacion_ttl.PNG)
@@ -316,11 +316,24 @@ Circuito propuesto para la compuerta CD4069.
        
 
 ## Análisis de resultados
+
+### Compuerta 74LS04
+
 |   Frecuencia (kHz)   |   Período (µs)   |   Tiempo por División (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
 |---------------------|------------------|--------------------------------|----------------|----------------|
 |        1 kHz        |       1000 µs       |           1                    |       2 ns     |       2 ns     |
 |       10 kHz        |      100 µs      |           1                    |       2 ns     |       2 ns     |
 |      100 kHz        |       10 µs      |           1                    |       2 ns     |       2 ns     |
+
+### Compuerta CD4069
+
+|   Frecuencia (kHz)   |   Período (µs)   |   Tiempo por División (ns/div)   |   tP HL (ns)   |   tP LH (ns)   |
+|---------------------|------------------|--------------------------------|----------------|----------------|
+|        1 kHz        |       1 ms       |           1                    |       2 ns     |       2 ns     |
+|      100 kHz        |      10 µs       |           1                    |       2 ns     |       2 ns     |
+|      200 kHz        |       5 µs       |           1                    |       2 ns     |       2 ns     |
+|      500 kHz        |       2 µs       |           1                    |       2 ns     |       2 ns     |
+|     1000 kHz        |       1 µs       |           1                    |       2 ns     |       2 ns     |
 
 ## Conclusiones
 
