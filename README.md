@@ -10,6 +10,26 @@
 
 Este proyecto tiene como objetivo principal la simulación y documentación detallada de las características de compuertas negadoras utilizando dos tecnologías distintas: la tecnología TTL (Transistor-Transistor Logic) representada por la compuerta 74LS04, y la tecnología CMOS (Complementary Metal-Oxide-Semiconductor) representada por la compuerta CD4069. El enfoque central radica en analizar y comparar estas tecnologías en diferentes contextos aplicaciones.
 
+# Contenido
+
+1. [Introducción](#introducción)
+2. [Autores](#autores)
+3. [Descripción](#descripción)
+4. [Marco Teórico](#marco-teórico)
+   4.1. [Álgebra Booleana](#álgebra-booleana)
+   4.2. [Compuertas Lógicas Básicas: Fundamentos y Funcionamiento](#compuertas-lógicas-básicas-fundamentos-y-funcionamiento)
+   4.3. [Transistor](#transistor)
+   4.4. [Circuitos integrados (CI)](#circuitos-integradosci)
+   4.5. [Familias lógicas](#familias-lógicas)
+      4.5.1. [TTL (Transistor-Transistor Logic)](#ttl-transistor-transistor-logic)
+      4.5.2. [CMOS (Complementary Metal-Oxide-Semiconductor)](#cmos-complementary-metal-oxide-semiconductor)
+5. [Materiales](#materiales)
+6. [Simulaciones](#simulaciones)
+   6.1. [Compuerta 74LS04](#compuerta-74ls04)
+   6.2. [Compuerta CD4069](#compuerta-cd4069)
+7. [Aplicación](#aplicación)
+8. [Resultados](#resultados)
+
 ## Marco Teórico.
 
 **1. Álgebra Booleana:**
