@@ -1,22 +1,22 @@
-#SIMULACIÒN DE SISTEMAS DIGITALES CON HERRAMIENTAS OPEN SOURCE.
+# SIMULACIÒN DE SISTEMAS DIGITALES CON HERRAMIENTAS OPEN SOURCE.
 
-##Autores
+## Autores
 - _Santiago Mariño Cortès_
 - _Jonathan David Rodrìguez Larrota_
 - _Juan Pablo Àvila Rodrìguez_
 
-##Descripciòn
+## Descripciòn
 
-##Contenido
+## Contenido
 
-##Marco Teòrico
+## Marco Teòrico
 
-##Simulaciones
+## Simulaciones
 
-##Resultados
+## Resultados
 
-##Anàlisis de resultados
+## Anàlisis de resultados
 
-##Conclusiones
+## Conclusiones
 
-##Referencias Bibliogràficos.
+## Referencias Bibliogràficos.
