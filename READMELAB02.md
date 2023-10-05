@@ -7,7 +7,7 @@
 
 ## Descripciones
 
-El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo open source como digital, iverilog, y gtkwave para realizar el diseño de circuitos deigitales como sumadores completos y sumadores-restadores, con dichas herramientas digitales se va a realizar un anàlisis de caracterìsticas de cada circuito como las tablas de verdad , mapas de Karnaugh, ecuaciones, entre otros mètodos.
+El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo open source como digital, iverilog, y gtkwave para implementar el diseño de circuitos digitales como sumadores completos y sumadores-restadores, con dichas herramientas digitales se va a realizar un anàlisis de caracterìsticas de cada circuito como las tablas de verdad , mapas de Karnaugh, ecuaciones, entre otros mètodos.
 
 ## Contenido
 1. [Autores](#autores)
@@ -22,8 +22,17 @@ El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo op
 
 
 ## Marco Teòrico
+**1.Sumador medio:**
+**2.Sumador completo:**
+**3.Restador medio:**
+**4.Restador completo:**
+**5.Sumador-Restador:**
+**6.Digital simulador:**
+**7.Icarus Verilog:**
 
 ## Simulaciones
+### Sumador completo:
+#### Sumador medio:
 
 ## Resultados
 
