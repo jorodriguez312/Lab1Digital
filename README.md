@@ -28,6 +28,9 @@ Este proyecto tiene como objetivo principal la simulación y documentación deta
    5.2. [Compuerta CD4069](#compuerta-cd4069)
 6. [Aplicación](#aplicación)
 7. [Resultados](#resultados)
+8. Anàlisis de Resultados.
+9. Conclusiones.
+10. Referecicas bibliogràficas.
 
 ## Marco Teórico.
 
