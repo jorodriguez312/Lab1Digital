@@ -40,12 +40,41 @@ El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo op
 
 ### Simulaciòn Sumador completo en Digital:
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/39b10bb7a1f3252aa9cf5383b1d20bcf2bb89eef/Imagenes/ImagenesLab2/sumador%20completo.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/estructura%20sumador%20completo.png)
 
 **Tabla de verdad**
-**Expresiòn algebraica**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/tabla%20sumador%20completo.png)
 
+**Expresiòn algebraica**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/ecuaci%C3%B2n%20sumador%20completo.png)
+
+**Mapa de Karnaug**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/karnaugh%20sumador%20completo%20salida.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/karnaugh%20sumador%20completo%20co.png)
+
+El sumador completo se compone de dos sumadores medios los cuàles tienen las siguientes caracterìsticas:
 
 #### Sumador medio:
+
+### Simulaciòn Sumador completo en Digital:
+
+**Tabla de verdad**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/tabla%20sumador%20medio.png)
+
+**Expresiòn algebraica**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/algebra%20sumador%20medio.png)
+
+**Mapa de Karnaug**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/karnaugh%20salida%20sumador%20medio.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/carry%20karnaugh%20sumador%20medio.png)
+
+**Casos de prueba**
+
+### Simulaciòn Sumador completo en Iverilog y gtkwave:
+
+### Simulaciòn sumador completo Digital, Iverilog y gtkwave:
+
+
 
 
 ## Anàlisis de resultados
