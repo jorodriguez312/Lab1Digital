@@ -16,6 +16,9 @@ El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo op
 4. [Materiales](#materiales)
 5. [Simulaciones](#simulaciones)
 6. [Resultados](#resultados)
+7. [Anàlisis de resultados](#Anàlisisderesultados)
+9. [Conclusiones](#conclusiones)
+10. [Referecicas bibliogràficas.](#Referenciasbibliogràficas)
 
 
 ## Marco Teòrico
