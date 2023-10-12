@@ -36,27 +36,57 @@ El sumador medio o semi-sumador es un circuito que, usando las reglas bàsicas d
 Con la tabla de verdad generada, se pueden obtener las sigueintes ecuaciones:
 
 La ecuación para el bit de acarreo de salida (Cout) en función de los bits de entrada A y B es:
-\[ C_{out} = A \cdot B \]
+$[ C_{out} = A \cdot B \$
 
 La ecuación para la suma (Sum) en función de los bits de entrada A y B es:
-\[ \text{Sum} = A \oplus B \]
+$\ \sum = A \oplus B \$
 
+Finalmente el diagrama lògico del sumador medio es el siguiente: 
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png)
 
 **2.Sumador completo:**
+
+Con el objetivo de implementar un acarreo en la entrada se creo el sumador completo. Para el acarreo de entrada $C{in}$
+se implementò otra compuerta OR-exclusiva, de tal manera que la ecuaciòn es la siguiente:
+
+$$\sum=(A)\oplus(B)\oplusC$$
+
+| A | B | Cin | Sum | Cout |
+|---|---|-----|-----|------|
+| 0 | 0 | 0   | 0   | 0    |
+| 0 | 0 | 1   | 0   | 1    |
+| 0 | 1 | 0   | 0   | 1    |
+| 0 | 1 | 1   | 1   | 0    |
+| 1 | 0 | 0   | 0   | 1    |
+| 1 | 0 | 1   | 1   | 0    |
+| 1 | 1 | 0   | 1   | 0    |
+| 1 | 1 | 1   | 1   | 1    |
 
 
 
 **3.Restador medio:**
 
+
+
 **4.Restador completo:**
+
+
 
 **5.Sumador-Restador:**
 
+
+
 **6.Digital simulador:**
+
+
 
 **7.Icarus Verilog:**
 
+
+
 **8.Mapa de Karnaugh:**
+
+
 
 ## Resultados-Simulaciones
 
