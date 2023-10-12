@@ -56,6 +56,8 @@ La ecuación para la suma (Sum) en función de los bits de entrada A y B es:
 
 **7.Icarus Verilog:**
 
+**8.Mapa de Karnaugh:**
+
 ## Resultados-Simulaciones
 
 ### Simulaciòn Sumador completo en Digital:
@@ -70,7 +72,7 @@ La ecuación para la suma (Sum) en función de los bits de entrada A y B es:
 **Expresiòn algebraica**
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/ecuaci%C3%B2n%20sumador%20completo.png)
 
-**Mapa de Karnaug**
+**Mapa de Karnaugh**
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/karnaugh%20sumador%20completo%20salida.png)
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/karnaugh%20sumador%20completo%20co.png)
@@ -91,22 +93,45 @@ El sumador completo se compone de dos sumadores medios los cuàles tienen las si
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/algebra%20sumador%20medio.png)
 
-**Mapa de Karnaug**
+**Mapa de Karnaugh**
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/karnaugh%20salida%20sumador%20medio.png)
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d1ac4ceb6d17a3d52bb95d358162eddc74013463/Imagenes/ImagenesLab2/carry%20karnaugh%20sumador%20medio.png)
-
-**Casos de prueba**
 
 ### Simulaciòn Sumador completo en Iverilog y gtkwave:
 
 ### Simulaciòn sumador completo Digital, Iverilog y gtkwave:
 
+### Simulaciòn Sumador-restador en Digital.
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/circuito%20sumador%20restador.png)
+
+**Tabla de verdad**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/tabla%20sumador%20restador.png)
+
+**Expresiòn algebraica**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/ecuaciones%20sumador-restador.png)
+
+**Mapa de Karnaugh**
+
+**Cout/Bout:**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/karnaugh%20cout%20boutt.png)
+
+**Suma/resta:**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/karnaugh%20s-r.png)
+
+**Test Bench y simulaciòn**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/prueba%20sumador%20restador.png)
 
 
 
-## Anàlisis de resultados
 
-## Conclusiones
+## Anàlisis de resultados.
+
+## Conclusiones.
 
 ## Referencias Bibliogràficos.
