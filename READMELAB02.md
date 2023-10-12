@@ -43,7 +43,7 @@ $\text{Sum} = A \oplus B$
 
 El diagrama lògico del sumador medio es el siguiente
 
-<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png" alt="Diagrma lógico del sumador medio" style="width:0.5;">
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png" alt="Diagrma lógico del sumador medio" style="width:0.0005;">
 
 **2.Sumador completo:**
 
@@ -66,21 +66,80 @@ La tabla de verdad de esta función es la siguiente:
 
 El diagrama lógico es el siguiente:
 
-<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/sumadorcompleto.png" alt="Diagrma lógico del sumador completo" style="width:0.75;">
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/sumadorcompleto.png" alt="Diagrma lógico del sumador completo" style="width:50%;">
 
 
 **3.Restador medio:**
 
+El medio restador, igual que 
+
+| A | B | Borrow | Difference |
+|---|---|--------|------------|
+| 0 | 0 | 0      | 0          |
+| 0 | 1 | 1      | 1          |
+| 1 | 0 | 0      | 1          |
+| 1 | 1 | 0      | 0          |
+
+
 **4.Restador completo:**
 
+| A | B | Cin | Difference | Borrow |
+|---|---|-----|------------|--------|
+| 0 | 0 | 0   | 0          | 0      |
+| 0 | 0 | 1   | 1          | 1      |
+| 0 | 1 | 0   | 1          | 1      |
+| 0 | 1 | 1   | 0          | 1      |
+| 1 | 0 | 0   | 1          | 0      |
+| 1 | 0 | 1   | 0          | 0      |
+| 1 | 1 | 0   | 0          | 1      |
+| 1 | 1 | 1   | 1          | 1      |
+
+
 **5.Sumador-Restador:**
+
+| A1 | A0 | B1 | B0 | Cin | Sum1 | Sum0 | Cout |
+|----|----|----|----|-----|------|------|------|
+| 0  | 0  | 0  | 0  | 0   | 0    | 0    | 0    |
+| 0  | 0  | 0  | 0  | 1   | 1    | 1    | 0    |
+| 0  | 0  | 0  | 1  | 0   | 0    | 1    | 0    |
+| 0  | 0  | 0  | 1  | 1   | 1    | 0    | 1    |
+| 0  | 0  | 1  | 0  | 0   | 0    | 1    | 0    |
+| 0  | 0  | 1  | 0  | 1   | 1    | 0    | 1    |
+| 0  | 0  | 1  | 1  | 0   | 0    | 0    | 1    |
+| 0  | 0  | 1  | 1  | 1   | 1    | 1    | 1    |
+| 0  | 1  | 0  | 0  | 0   | 0    | 1    | 0    |
+| 0  | 1  | 0  | 0  | 1   | 1    | 0    | 1    |
+| 0  | 1  | 0  | 1  | 0   | 0    | 0    | 1    |
+| 0  | 1  | 0  | 1  | 1   | 1    | 1    | 1    |
+| 0  | 1  | 1  | 0  | 0   |     |     |     |
+| 0  | 1  | 1  | 0  | 1   |     |     |     |
+| 0  | 1  | 1  | 1  | 0   |     |     |     |
+| 0  | 1  | 1  | 1  | 1   |     |     |     |
+| 1  | 0  | 0  | 0  | 0   |     |     |     |
+| 1  | 0  | 0  | 0  | 1   |     |     |     |
+| 1  | 0  | 0  | 1  | 0   |     |     |     |
+| 1  | 0  | 0  | 1  | 1   |     |     |     |
+| 1  | 0  | 1  | 0  | 0   |     |     |     |
+| 1  | 0  | 1  | 0  | 1   |     |     |     |
+| 1  | 0  | 1  | 1  | 0   |     |     |     |
+| 1  | 0  | 1  | 1  | 1   |     |     |     |
+| 1  | 1  | 0  | 0  | 0   |     |     |     |
+| 1  | 1  | 0  | 0  | 1   |     |     |     |
+| 1  | 1  | 0  | 1  | 0   |     |     |     |
+| 1  | 1  | 0  | 1  | 1   |     |     |     |
+| 1  | 1  | 1  | 0  | 0   |     |     |     |
+| 1  | 1  | 1  | 0  | 1   |     |     |     |
+| 1  | 1  | 1  | 1  | 0   |     |     |     |
+| 1  | 0  | 1  | 1  | 1   |     |     |     |
+
+
 
 **6.Digital simulador:**
 
 **7.Icarus Verilog:**
 
 **8.Mapa de Karnaugh:**
-
+El mapa de Karnaugh ofrece un método sistemático para simplificar expresiones booleanas y generar las expresiones más simples posibles, ya sea en forma de suma de productos o producto de sumas, conocidas como expresiones mínimas. La eficacia de esta simplificación algebraica depende de nuestra comprensión y aplicación de las leyes, reglas y teoremas del álgebra de Boole. Básicamente, el mapa de Karnaugh se presenta como una "receta" para lograr esta simplificación de manera efectiva.
 ## Resultados-Simulaciones
 
 ### Simulaciòn Sumador completo en Digital:
