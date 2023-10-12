@@ -107,6 +107,7 @@ El sumador completo se compone de dos sumadores medios los cuàles tienen las si
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/circuito%20sumador%20restador.png)
 
 **Tabla de verdad**
+
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/tabla%20sumador%20restador.png)
 
 **Expresiòn algebraica**
