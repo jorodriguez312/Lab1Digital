@@ -23,7 +23,9 @@ El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo op
 ## Marco Teórico
 
 **1.Sumador medio:**
-El sumador medio o semi-sumador es un circuito que, usando las reglas bàsicas de la suma binaria, admite dos digitos binarios en sus entradas y genera dos digitos binarios en sus salidas, un bit de suma y un bit de acarreo. A continuaciòn se muestra su tabla de verdad.
+
+El sumador medio o semi-sumador es un circuito que, usando las reglas bàsicas de la suma binaria, admite dos digitos binarios en sus entradas y genera dos digitos binarios en sus salidas, siendo estos un bit de suma y un bit de acarreo. A continuaciòn se muestra su tabla de verdad.
+
 | A | B | Sum | Cout |
 |---|---|-----|------|
 | 0 | 0 | 0   | 0    |
@@ -31,7 +33,18 @@ El sumador medio o semi-sumador es un circuito que, usando las reglas bàsicas d
 | 1 | 0 | 1   | 0    |
 | 1 | 1 | 0   | 1    |
 
+Con la tabla de verdad generada, se pueden obtener las sigueintes ecuaciones:
+
+La ecuación para el bit de acarreo de salida (Cout) en función de los bits de entrada A y B es:
+\[ C_{out} = A \cdot B \]
+
+La ecuación para la suma (Sum) en función de los bits de entrada A y B es:
+\[ \text{Sum} = A \oplus B \]
+
+
 **2.Sumador completo:**
+
+
 
 **3.Restador medio:**
 
