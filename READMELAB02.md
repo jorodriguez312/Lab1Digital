@@ -33,17 +33,41 @@ El sumador medio o semi-sumador es un circuito que, usando las reglas bàsicas d
 | 1 | 0 | 1   | 0    |
 | 1 | 1 | 0   | 1    |
 
-Con la tabla de verdad generada, se pueden obtener las sigueintes ecuaciones:
+Con la tabla de verdad generada, se pueden obtener las siguientes ecuaciones:
 
 La ecuación para el bit de acarreo de salida (Cout) en función de los bits de entrada A y B es:
-\[ C_{out} = A \cdot B \]
+ $C_{out} = A \cdot B$ 
 
-La ecuación para la suma (Sum) en función de los bits de entrada A y B es:
-\[ \text{Sum} = A \oplus B \]
+La ecuación para la suma %\sum% en función de los bits de entrada A y B es:
+$\text{Sum} = A \oplus B$
+
+El diagrama lògico del sumador medio es el siguiente:
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png)
 
 
 **2.Sumador completo:**
 
+La diferencia entre el sumador medio y el sumador completo, es que este último admite un acarreo de entrada $C_{in}$. Para la impementación de %C_{in}% se agregó otra compuerta OR-exlusiva, de tal manera que la ecuación de para la salida es la siguiente:
+
+$$\sum=(A \oplus B) \oplus C$$
+
+La tabla de verdad de esta función es la siguiente:
+
+| A | B | Cin | Sum | Cout |
+|---|---|-----|-----|------|
+| 0 | 0 | 0   | 0   | 0    |
+| 0 | 0 | 1   | 1   | 0    |
+| 0 | 1 | 0   | 1   | 0    |
+| 0 | 1 | 1   | 0   | 1    |
+| 1 | 0 | 0   | 1   | 0    |
+| 1 | 0 | 1   | 0   | 1    |
+| 1 | 1 | 0   | 0   | 1    |
+| 1 | 1 | 1   | 1   | 1    |
+
+El diagrama lógico es el siguiente:
+
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/sumadorcompleto.png" alt="Diagrma lógico del sumador completo" style="width:75%;">
 
 
 **3.Restador medio:**
