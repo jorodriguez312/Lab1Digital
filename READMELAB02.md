@@ -41,10 +41,9 @@ La ecuación para el bit de acarreo de salida (Cout) en función de los bits de 
 La ecuación para la suma %\sum% en función de los bits de entrada A y B es:
 $\text{Sum} = A \oplus B$
 
-El diagrama lògico del sumador medio es el siguiente:
+El diagrama lògico del sumador medio es el siguiente
 
-![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png)
-
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png" alt="Diagrma lógico del sumador medio" style="width:0.5;">
 
 **2.Sumador completo:**
 
@@ -67,7 +66,7 @@ La tabla de verdad de esta función es la siguiente:
 
 El diagrama lógico es el siguiente:
 
-<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/sumadorcompleto.png" alt="Diagrma lógico del sumador completo" style="width:75%;">
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/sumadorcompleto.png" alt="Diagrma lógico del sumador completo" style="width:0.75;">
 
 
 **3.Restador medio:**
