@@ -188,7 +188,8 @@ Icarus Verilog es una implementación del compilador del lenguaje de descripció
 El mapa de Karnaugh ofrece un método sistemático para simplificar expresiones booleanas y generar las expresiones más simples posibles, ya sea en forma de suma de productos o producto de sumas, conocidas como expresiones mínimas. La eficacia de esta simplificación algebraica depende de nuestra comprensión y aplicación de las leyes, reglas y teoremas del álgebra de Boole. Básicamente, el mapa de Karnaugh se presenta como una "receta" para lograr esta simplificación de manera efectiva.
 A continuación se presenta un ejemplo de análisis por mapa de Karnaugh:
 
-![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/39b10bb7a1f3252aa9cf5383b1d20bcf2bb89eef/Imagenes/karnaugh_map_wihth_groupings-h.png)
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/karnaugh_map_with_groupings-h.png" alt="Ejemplo mapa de Karnaugh" style="width:50%;">
+
 El análisis del mapa de Karnaugh revela tres grupos de celdas con valores 1: rojo, verde y azul. Cada grupo representa una combinación de valores de parámetros. Luego, se procede a calcular la expresión final para cada grupo, considerando los parámetros que no cambian en función de las etiquetas binarias de filas y columnas. El grupo rojo no incluye los parámetros C y D, ya que cambian, pero incluye A y B que permanecen constantes en la misma fila. El grupo verde incluye A, pero no B, y C, pero no D, ya que cambian en diferentes columnas. El grupo azul incluye B, C y D, pero C se incluye con un operador NOT, ya que es 0 en lugar de 1. Estas expresiones finales describen relaciones lógicas basadas en las combinaciones de parámetros de las celdas con valor 1.
 ## Resultados-Simulaciones
 
