@@ -427,10 +427,11 @@ El circuito de sumador-restador se simuló utilizando Digital. Se obtuvieron las
 
 Los resultados muestran que el circuito es capaz de realizar tanto sumas como restas, y las expresiones son coherentes con la lógica de operaciones aritméticas.
 
-En todas las simulaciones y simplificaciones mediante mapas de Karnaugh son coherentes con la teoría y las expectativas
+En todas las simulaciones y simplificaciones mediante mapas de Karnaugh son coherentes con la teoría.
 ## Conclusiones.
 - Se demostró que las herramientas de simulación de código abierto, como Digital, Icarus Verilog y GTKWave, son efectivas para el diseño y análisis de circuitos digitales. Estas herramientas brindan la capacidad de verificar el comportamiento de los diseños antes de la implementación física, lo que es esencial en el proceso de desarrollo de sistemas digitales.
 - 
 ## Referencias Bibliogràficos.
 https://ieeexplore.ieee.org/document/1620780
 https://steveicarus.github.io/iverilog/index.html
+https://www.techtarget.com/whatis/definition/Karnaugh-map-K-map
