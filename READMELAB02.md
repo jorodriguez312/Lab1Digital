@@ -379,8 +379,6 @@ module top_testbech_tb;
     endmodule
 ```
 
-### Simulaciòn sumador completo Digital, Iverilog y gtkwave:
-
 ### Simulaciòn Sumador-restador en Digital.
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/circuito%20sumador%20restador.png)
