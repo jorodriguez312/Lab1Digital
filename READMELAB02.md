@@ -23,8 +23,7 @@ El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo op
 ## Marco Teórico
 
 **1.Sumador medio:**
-
-El sumador medio o semi-sumador es un circuito que, usando las reglas bàsicas de la suma binaria, admite dos digitos binarios en sus entradas y genera dos digitos binarios en sus salidas, siendo estos un bit de suma y un bit de acarreo. A continuaciòn se muestra su tabla de verdad.
+La suma es la operación básica de la aritmética que consiste en cuatro casos posibles para dos entradas binarias, como se muestra en la siguiente tabla, para los primeros tres casos de la salida constan de un dígito binario, pero para el cuarto se necesita el uso de un nuevo término binario denominado carry el cuál será el mas sgnificativo en los valores de la salida.
 
 | A | B | Sum | Cout |
 |---|---|-----|------|
@@ -46,12 +45,12 @@ El diagrama lògico del sumador medio es el siguiente
 <img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/semisumador.png" alt="Diagrma lógico del sumador medio" style="width:0.0005;">
 
 **2.Sumador completo:**
+Circuito combinacional que realiza la operación aritmética de la suma para tres bits para obtener dos salidas. Dos de las entradas (A Y B) representan los dos bits significativos mientras que la entrada denotada por Cin será el carry. El uso de dos salidas se debe a que la suma de las tres entradas binarias tendrá valores de 3 y 2, y como en el caso del sumador medio valores de salida superiores de "1" requieren más de dos bits que serán denotados con sum y Cout, este último el acarreo de salida. la ecuación de de la operación es la siguiente:
 
-La diferencia entre el sumador medio y el sumador completo, es que este último admite un acarreo de entrada $C_{in}$. Para la impementación de %C_{in}% se agregó otra compuerta OR-exlusiva, de tal manera que la ecuación de para la salida es la siguiente:
 
 $$\sum=(A \oplus B) \oplus C$$
 
-La tabla de verdad de esta función es la siguiente:
+La tabla de verdad y el diagrama lógico para esta operación se muestran acontinuación:
 
 | A | B | Cin | Sum | Cout |
 |---|---|-----|-----|------|
@@ -64,14 +63,11 @@ La tabla de verdad de esta función es la siguiente:
 | 1 | 1 | 0   | 0   | 1    |
 | 1 | 1 | 1   | 1   | 1    |
 
-El diagrama lógico es el siguiente:
-
 <img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/sumadorcompleto.png" alt="Diagrma lógico del sumador completo" style="width:50%;">
 
 
-**3.Restador medio:**
-
-El medio restador, igual que 
+**3.Restador medio y restador completo:**
+La operación de resta
 
 | A | B | Borrow | Difference |
 |---|---|--------|------------|
@@ -79,9 +75,6 @@ El medio restador, igual que
 | 0 | 1 | 1      | 1          |
 | 1 | 0 | 0      | 1          |
 | 1 | 1 | 0      | 0          |
-
-
-**4.Restador completo:**
 
 | A | B | Cin | Difference | Borrow |
 |---|---|-----|------------|--------|
