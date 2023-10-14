@@ -2,7 +2,7 @@
 
 ## Autores
 - _Santiago Mariño Cortés_
-- _Jonathan David Rodrìguez Larrota_
+- _Jonathan David Rodríguez Larrotta_
 - _Juan Pablo Ávila Suárez_
 
 ## Descripción
