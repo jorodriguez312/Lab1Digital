@@ -443,7 +443,8 @@ Los resultados muestran que el circuito es capaz de realizar tanto sumas como re
 En todas las simulaciones y simplificaciones mediante mapas de Karnaugh son coherentes con la teoría.
 ## Conclusiones.
 - Se demostró que las herramientas de simulación de código abierto, como Digital, Icarus Verilog y GTKWave, son efectivas para el diseño y análisis de circuitos digitales. Estas herramientas brindan la capacidad de verificar el comportamiento de los diseños antes de la implementación física, lo que es esencial en el proceso de desarrollo de sistemas digitales.
-- 
+- Verilog es una herramienta esencial para describir la funcionalidad de los circuitos y verificar su comportamiento bajo diferentes condiciones. El uso de módulos y testbenches permite una metodología estructurada y eficiente para el diseño de sistemas digitales
+- Digital es una herramienta bastante versatil y facil de usar para diseña sistemas digitales ya genera código VHDL y Verilog, mapas de Karnaugh, tablas de verdad, análisis de circuitos, algebra boolena y sintesis agregando un valor significativo, ya que facilita la implementación de diseños en hardware real.
 ## Referencias 
 https://ieeexplore.ieee.org/document/1620780
 https://steveicarus.github.io/iverilog/index.html
