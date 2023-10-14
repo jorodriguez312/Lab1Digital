@@ -88,15 +88,20 @@ La operación de resta
 | 1 | 1 | 1   | 1          | 1      |
 
 **6.Digital simulador:**
-Digital es un diseñador de lógica digital y simulador de circuitos fácil de usar, diseñado con fines educativos.Proporciona un rendimiento eficiente, incluso para circuitos de gran tamaño. Además, es posible exportar circuitos a VHDL o Verilog, así como archivos JEDEC que se pueden programar en chips GAL16v8 o GAL22v10. 
-Entre sus carácteristicas se tiene: 
-Visualización de estados de señales con gráficos de medición.
-Modo de una sola puerta para analizar oscilaciones.
-Análisis y síntesis de circuitos combinatorios y secuenciales.
-Pruebas sencillas de circuitos: puedes crear casos de prueba y ejecutarlos para verificar tu diseño.
-Los componentes se pueden describir utilizando VHDL o Verilog. Para simular un componente definido en VHDL, es necesario instalar el simulador de código abierto VHDL ghdl, y para simular un componente definido en Verilog, se requiere el simulador de código abierto Icarus Verilog.
-Un circuito se puede exportar a VHDL o Verilog. También ofrece soporte directo para la placa BASYS3 y la placa TinyFPGA BX. Consulta la documentación para más detalles. La carpeta de ejemplos contiene una variante de la CPU de ejemplo que se ejecuta en una placa BASYS3.
-Repositorio de GitHub: Para obtener más detalles y acceder al proyecto "Digital": [Repositorio Digital en GitHub](https://github.com/hneemann/Digital)
+Digital es un diseñador de lógica digital y simulador de circuitos fácil de usar, diseñado con fines educativos. Proporciona un rendimiento eficiente, incluso para circuitos de gran tamaño. Además, es posible exportar circuitos a VHDL o Verilog, así como archivos JEDEC que se pueden programar en chips GAL16v8 o GAL22v10. Entre sus características se tienen:
+
+- Visualización de estados de señales con gráficos de medición.
+- Modo de una sola puerta para analizar oscilaciones.
+- Análisis y síntesis de circuitos combinatorios y secuenciales.
+- Pruebas sencillas de circuitos: puedes crear casos de prueba y ejecutarlos para verificar tu diseño.
+- Los componentes se pueden describir utilizando VHDL o Verilog. Para simular un componente definido en VHDL, es necesario instalar el simulador de código abierto VHDL ghdl, y para simular un componente definido en Verilog, se requiere el simulador de código abierto Icarus Verilog.
+- Un circuito se puede exportar a VHDL o Verilog. También ofrece soporte directo para la placa BASYS3 y la placa TinyFPGA BX. Consulta la documentación para más detalles. La carpeta de ejemplos contiene una variante de la CPU de ejemplo que se ejecuta en una placa BASYS3.
+- 
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/karnaugh_map_1-h.png" alt="Ejemplo mapa de Karnaugh" style="width:50%;">
+
+Repositorio de GitHub: Para obtener más detalles y acceder al proyecto "Digital", visita el [Repositorio Digital en GitHub](https://github.com/hneemann/Digital).
+
+
 **7.Icarus Verilog:**
 Verilog es un lenguague de descripción de hardware (HDL, por sus siglas en ingles hardware description language) utilizado para modelar sistemas electrónicos, incluyendo sistemas analógicos, digitales y de señal mixta. Se utiliza en el diseño, prueba e implementación de circuitos a diferentes niveles de abstracción. [x]
 Icarus Verilog es una implementación del compilador del lenguaje de descripción de hardware Verilog que produce netlists en el formato deseado (EDIF). Admite las versiones de estándar de 1995, 2001 y 2005, partes de SystemVerilog y algunas extensiones. [x]
