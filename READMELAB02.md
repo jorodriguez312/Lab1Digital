@@ -97,7 +97,7 @@ Digital es un diseñador de lógica digital y simulador de circuitos fácil de u
 - Los componentes se pueden describir utilizando VHDL o Verilog. Para simular un componente definido en VHDL, es necesario instalar el simulador de código abierto VHDL ghdl, y para simular un componente definido en Verilog, se requiere el simulador de código abierto Icarus Verilog.
 - Un circuito se puede exportar a VHDL o Verilog. También ofrece soporte directo para la placa BASYS3 y la placa TinyFPGA BX. Consulta la documentación para más detalles. La carpeta de ejemplos contiene una variante de la CPU de ejemplo que se ejecuta en una placa BASYS3.
 - 
-<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/screenshot3png" alt="Screenshot interfaz Digital. Imagen del repositorio de hneemann " style="width:50%;">
+<img src="https://github.com/jorodriguez312/Lab1Digital/blob/main/Imagenes/ImagenesLab2/screenshot3.png" alt="Screenshot interfaz Digital. Imagen del repositorio de hneemann " style="width:50%;">
 
 Repositorio de GitHub: Para obtener más detalles y acceder al proyecto "Digital", visita el [Repositorio Digital en GitHub](https://github.com/hneemann/Digital).
 
