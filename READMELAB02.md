@@ -37,8 +37,8 @@ Con la tabla de verdad generada, se pueden obtener las siguientes ecuaciones:
 La ecuación para el bit de acarreo de salida (Cout) en función de los bits de entrada A y B es:
  $C_{out} = A \cdot B$ 
 
-La ecuación para la suma %\sum% en función de los bits de entrada A y B es:
-$\text{Sum} = A \oplus B$
+La ecuación para la suma $\sum$ en función de los bits de entrada A y B es:
+$\sum = A \oplus B$
 
 El diagrama lògico del sumador medio es el siguiente
 
