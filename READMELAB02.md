@@ -401,14 +401,14 @@ module top_testbech_tb;
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/karnaugh%20s-r.png)
 
-**Test Bench y simulaciòn**
+**Test Bench y simulación**
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/prueba%20sumador%20restador.png)
 
 
 
 
-## Anàlisis de resultados.
+## Análisis de resultados.
 ### Sumador Completo
 
 La simulación del sumador completo se realizó utilizando Digital. A partir de la tabla de verdad y las ecuaciones, se obtuvieron las siguientes expresiones:
@@ -439,7 +439,7 @@ El circuito de sumador-restador se simuló utilizando Digital. Se obtuvieron las
 Los resultados muestran que el circuito es capaz de realizar tanto sumas como restas, y las expresiones son coherentes con la lógica de operaciones aritméticas.
 
 En todas las simulaciones y simplificaciones mediante mapas de Karnaugh son coherentes con la teoría.
-## Conclusiones.
+## Conclusiones
 - Se demostró que las herramientas de simulación de código abierto, como Digital, Icarus Verilog y GTKWave, son efectivas para el diseño y análisis de circuitos digitales. Estas herramientas brindan la capacidad de verificar el comportamiento de los diseños antes de la implementación física, lo que es esencial en el proceso de desarrollo de sistemas digitales.
 - Verilog es una herramienta esencial para describir la funcionalidad de los circuitos y verificar su comportamiento bajo diferentes condiciones. El uso de módulos y testbenches permite una metodología estructurada y eficiente para el diseño de sistemas digitales
 - Digital es una herramienta bastante versatil y facil de usar para diseña sistemas digitales ya genera código VHDL y Verilog, mapas de Karnaugh, tablas de verdad, análisis de circuitos, algebra boolena y sintesis agregando un valor significativo, ya que facilita la implementación de diseños en hardware real.
