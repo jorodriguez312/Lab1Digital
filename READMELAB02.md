@@ -67,7 +67,7 @@ La tabla de verdad y el diagrama lógico para esta operación se muestran aconti
 
 
 **3.Restador medio y restador completo:**
-A continución se muestra la tabla de verdad para el Restador Medio, su ecuación
+A continución se muestra la tabla de verdad para el medio-restador. La tabla de verdad para el restador medio es parecida a la del restador, con la diferencia de que la columna del borrow diverge, por lo que, para su ecuación, se obtiene lo mismo para la diferencia, pero para el borrow es diferente.
 
 | A | B | Borrow | Difference |
 |---|---|--------|------------|
