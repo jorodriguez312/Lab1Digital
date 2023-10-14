@@ -67,7 +67,7 @@ La tabla de verdad y el diagrama lógico para esta operación se muestran aconti
 
 
 **3.Restador medio y restador completo:**
-A continución se muestra la tabla de verdad para el Restador Medio.
+A continución se muestra la tabla de verdad para el Restador Medio, su ecuación
 
 | A | B | Borrow | Difference |
 |---|---|--------|------------|
