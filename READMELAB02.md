@@ -13,11 +13,11 @@ El objetivo de esta pràctica es explorar herramientas de simulaciòn de tipo op
 1. [Autores](#autores)
 2. [Descripción](#descripción)
 3. [Marco Teórico](#marcoteórico)
-4. [Materiales](#materiales)
-5. [Resultados-simulaciones](#resultados-simulaciones)
-6. [Anàlisis de resultados](#Anàlisisderesultados)
+4. [Herramientas](#herramientas-y-materiales)
+5. [Resultados y Simulaciones](#resultados-y-simulaciones)
+6. [Análisis de Resultados](#análisis-de-resultados)
 7. [Conclusiones](#conclusiones)
-8. [Referecicas bibliogràficas.](#Referenciasbibliogràficas)
+8. [Referencias Bibliográficas](#referencias-bibliográficas)
 
 
 ## Marco Teórico
