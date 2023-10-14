@@ -83,7 +83,7 @@ La ecuación para el bit de borrow en función de los bits de entrada A y B es:
  $C_{out} = A \cdot ~B$ 
 
 La ecuación para la resta en función de los bits de entrada A y B es:
-$\sum = A \oplus B$
+$\text{Rest} = A \oplus B$
 
 
 
