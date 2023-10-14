@@ -80,12 +80,10 @@ A continución se muestra la tabla de verdad para el medio-restador.
 De la tabla de verdad para el medio restador, se obtienen la ecuación booleana y su diagrama lógico, mostrados a continuación.
 
 La ecuación para el bit de borrow en función de los bits de entrada A y B es:
-$Borrow = \oveline{A} \cdot B$
+$Borrow = \overline{A} \cdot B$
 
 La ecuación para la resta en función de los bits de entrada A y B es:
 $\text{Rest} = A \oplus B$
-
-
 
 
 La tabla de verdad correspondiente al Restador completo es la siguiente:
