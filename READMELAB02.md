@@ -67,7 +67,7 @@ La tabla de verdad y el diagrama lógico para esta operación se muestran aconti
 
 
 **3.Restador medio y restador completo:**
-La operación de resta
+La operación de números binarios se puede realizar como una suma de complementos, en el caso de A-B con el complemento de B; para implementar esto se debe obtener el complemento a uno, que se realiza mediante inversores y la suma de un 1 que se implementa con el carry de entrada, a continuación se muestran las tablas para un restador medio (resta sin carry de entrada) y un restador completo (resta con carry entrada). 
 
 | A | B | Borrow | Difference |
 |---|---|--------|------------|
@@ -89,6 +89,7 @@ La operación de resta
 
 
 **5.Sumador-Restador:**
+Las operaciones de suma y resta (completas) mencionadas previamente se pueden implementar en un sólo circuito, en este caso se va a aimplementar un sumador de 4 números binarios y se usará una entrada adicional para denominada C que será usada para seleccionar la operación que se va a realizar, para la suma esta variable tomará el valor de 0 y para la resta el valor de 1.
 
 | A1 | A0 | B1 | B0 | Cin | Sum1 | Sum0 | Cout |
 |----|----|----|----|-----|------|------|------|
@@ -126,13 +127,15 @@ La operación de resta
 | 1  | 0  | 1  | 1  | 1   |     |     |     |
 
 
+**7.Mapa de Karnaugh:**
+Método sistemático que consiste en un diragram hecho de cuadrados, cada uno de los cuáles representa un minitérmino de una función dada. Los miniterminos se usan para representar cualquier función booleana mediante la suma de estos. Este método se usa para simplificar expresiones booleanas mediante sumas de productos o productos de sumas los cuales se refieren a los minitérminos de la expresión, dicha simplificación se realiza mediante el uso de las leyes y teoremas fundamentales del álgebra de boole.
 
-**6.Digital simulador:**
+## Materiales
 
-**7.Icarus Verilog:**
+**1.Digital simulador:**
 
-**8.Mapa de Karnaugh:**
-El mapa de Karnaugh ofrece un método sistemático para simplificar expresiones booleanas y generar las expresiones más simples posibles, ya sea en forma de suma de productos o producto de sumas, conocidas como expresiones mínimas. La eficacia de esta simplificación algebraica depende de nuestra comprensión y aplicación de las leyes, reglas y teoremas del álgebra de Boole. Básicamente, el mapa de Karnaugh se presenta como una "receta" para lograr esta simplificación de manera efectiva.
+**2.Icarus Verilog:**
+
 ## Resultados-Simulaciones
 
 ### Simulaciòn Sumador completo en Digital:
