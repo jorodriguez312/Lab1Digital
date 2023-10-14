@@ -298,8 +298,7 @@ module top (
     .co( co ),
     .s( s )
   );
-endmodule
-
+endmodule```
 
 ### Simulaciòn sumador completo Digital, Iverilog y gtkwave:
 
