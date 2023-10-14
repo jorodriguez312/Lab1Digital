@@ -130,7 +130,100 @@ La operación de resta
 **6.Digital simulador:**
 
 **7.Icarus Verilog:**
+Verilog es un lenguague de descripción de hardware (HDL, por sus siglas en ingles hardware description language) utilizado para modelar sistemas electrónicos, incluyendo sistemas analógicos, digitales y de señal mixta. Se utiliza en el diseño, prueba e implementación de circuitos a diferentes niveles de abstracción. [x]
+Icarus Verilog es una implementación del compilador del lenguaje de descripción de hardware Verilog que produce netlists en el formato deseado (EDIF). Admite las versiones de estándar de 1995, 2001 y 2005, partes de SystemVerilog y algunas extensiones. [x]
+- Icarus Verilog se utiliza principalmente para el diseño y simulación de circuitos digitales. Los circuitos digitales son componentes electrónicos que operan en valores discretos, como 0 y 1.
+- Es ampliamente utilizado para la simulación de circuitos digitales. Permite verificar el comportamiento de un diseño antes de la implementación física.
+- proporciona una serie de herramientas que incluyen el compilador Verilog (iverilog), el simulador (vvp), y herramientas de visualización como GTKWave para analizar las formas de onda de la simulación.
+- Se utiliza en combinación con otras herramientas de diseño de hardware, como herramientas de síntesis, para llevar a cabo proyectos completos de diseño de hardware.
+### Sintaxis y lógica de verilog
 
+1. **Módulo Verilog básico**:
+   ```verilog
+   module MiModulo(input wire a, b, output wire y);
+       assign y = a & b; // Operación AND
+   endmodule
+   ```
+
+2. **Asignación de valores**:
+   ```verilog
+   assign a = 1'b1; // Asignar un valor binario
+   assign b = 4'd7; // Asignar un valor decimal de 7
+   ```
+
+3. **Operaciones lógicas y aritméticas**:
+   ```verilog
+   wire a, b, c;
+   assign c = a & b; // AND lógico
+   assign c = a | b; // OR lógico
+   assign c = a ^ b; // XOR lógico
+   assign c = a + b; // Suma
+   assign c = a - b; // Resta
+   ```
+
+4. **Compuertas lógicas**:
+   ```verilog
+   wire a, b, c;
+   assign a_and_b = a & b; // AND
+   assign a_or_b = a | b; // OR
+   assign not_a = ~a; // NOT
+   ```
+
+5. **Condiciones y asignación condicional**:
+   ```verilog
+   if (condición) begin
+       // Código cuando la condición es verdadera
+   end else begin
+       // Código cuando la condición es falsa
+   end
+   ```
+
+6. **Bifurcación de casos**:
+   ```verilog
+   case(sel)
+       2'b00: // Cuando sel es 00
+           // Código
+       2'b01: // Cuando sel es 01
+           // Código
+       default: // Cuando no se cumple ninguna condición anterior
+           // Código
+   endcase
+   ```
+
+7. **Bucles**:
+   ```verilog
+   for (i = 0; i < 4; i = i + 1) begin
+       // Código a repetir
+   end
+   ```
+
+8. **Registros y registros de desplazamiento**:
+   ```verilog
+   reg [7:0] contador; // Registro de 8 bits
+   always @(posedge clock) begin
+       contador <= contador + 1; // Incremento en el flanco de subida del reloj
+   end
+   ```
+
+9. **Sensibilidad a eventos**:
+   ```verilog
+   always @(a or b) begin
+       // Código ejecutado cuando a o b cambian
+   end
+   ```
+
+10. **Instancias de módulos**:
+    ```verilog
+    MiModulo instancia1 (.a(input_a), .b(input_b), .y(output_y));
+    ```
+### Simulación, síntesis y configuración
+    make sim: Compila y ejecuta la simulación del diseño Verilog. Los archivos de código fuente se especifican en SRC_FILES, y el módulo principal se define en TOP_MODULE.
+
+    make syn: Realiza la síntesis del diseño utilizando una herramienta como Yosys. Asegúrate de proporcionar el comando de síntesis adecuado en la sección correspondiente.
+
+    make config: Este objetivo se utiliza para configurar cualquier otra acción que desees realizar en tu flujo de diseño. Agrega los comandos específicos que sean relevantes para tu proyecto.
+
+    make clean: Limpia los archivos generados durante la simulación y la síntesis.
 **8.Mapa de Karnaugh:**
 El mapa de Karnaugh ofrece un método sistemático para simplificar expresiones booleanas y generar las expresiones más simples posibles, ya sea en forma de suma de productos o producto de sumas, conocidas como expresiones mínimas. La eficacia de esta simplificación algebraica depende de nuestra comprensión y aplicación de las leyes, reglas y teoremas del álgebra de Boole. Básicamente, el mapa de Karnaugh se presenta como una "receta" para lograr esta simplificación de manera efectiva.
 ## Resultados-Simulaciones
@@ -211,3 +304,4 @@ El sumador completo se compone de dos sumadores medios los cuàles tienen las si
 ## Conclusiones.
 
 ## Referencias Bibliogràficos.
+https://ieeexplore.ieee.org/document/1620780
