@@ -418,8 +418,20 @@ module top_testbech_tb;
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b253c31bb0482e80786c7487c64d6a362762de44/Imagenes/ImagenesLab2/prueba%20sumador%20restador.png)
 
 
+### Simulaciòn Sumador-restador en Iverilog.
 
-### Simulaciòn Sumador-restador de 4 bits.
+**Test Bench**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/92dbf7478e377233ce2153a12ee4c8de42442cd3/Imagenes/ImagenesLab2/tb%20sumador%20completo.png)
+
+**rtl**
+**Sumador medio**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/94f1682385c0fdad5f6f20d495f3056257e98282/Imagenes/ImagenesLab2/halfadder.png)
+
+**Sumador completo**
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/5d8918764eadc733274c9a5e26c8bd9018f1c712/Imagenes/ImagenesLab2/fulladder.png)
+
+### Simulaciòn Sumador-restador de 4 bits en digital.
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/sumador%20restador%204%20bits.png)
 
@@ -455,7 +467,18 @@ module top_testbech_tb;
 
 ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/simulacion%204%20bits.png)
 
+### Simulaciòn Sumador-restador de 4 bits en iverilog.
 
+**Archivo .v**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/5d8918764eadc733274c9a5e26c8bd9018f1c712/Imagenes/ImagenesLab2/testbench%201.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/5d8918764eadc733274c9a5e26c8bd9018f1c712/Imagenes/ImagenesLab2/testbench%202.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/5d8918764eadc733274c9a5e26c8bd9018f1c712/Imagenes/ImagenesLab2/testbench%203.png)
+
+**Testbench**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/5d8918764eadc733274c9a5e26c8bd9018f1c712/Imagenes/ImagenesLab2/tb%204%20bits.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/5d8918764eadc733274c9a5e26c8bd9018f1c712/Imagenes/ImagenesLab2/tb%204%20bits%201.png)
 
 
 ## Análisis de resultados.
