@@ -422,3 +422,5 @@ Circuito propuesto para la compuerta CD4069.
   - Mayor margen de tolerancia en la alimentación.
 ## Referencias bibliogràficas.
 - Buchla, David, and Thomas L. Floyd. "Experiments in Digital Fundamentals to Accompany Floyd, Digital Fundamentals." (2000).
+- M.Morris. Diseño digital tercera edición.2003.
+- Floyd.T. Fundamentos de sistemas digitales novena edición.2006.
