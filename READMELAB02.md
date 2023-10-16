@@ -419,6 +419,44 @@ module top_testbech_tb;
 
 
 
+### Simulaciòn Sumador-restador de 4 bits.
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/sumador%20restador%204%20bits.png)
+
+**Tabla de verdad**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%201.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%202.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%203.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%204.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%205.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%206.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%207.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%208.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%209.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%2010.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%2011.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%2012.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/tabla%204%20bits%2013.png)
+
+**Expresiòn algebraica**
+
+[Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%201.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%202.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuaciones%204%20bits%203.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%204.pn)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuaciones%204%20bits%205.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%206.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%207.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%208.png)
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/ecuacion%204%20bits%209.png)
+
+**Test Bench y simulación**
+
+![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b1f966186a6e0c84be6eaff35447772cf7458ad0/Imagenes/ImagenesLab2/simulacion%204%20bits.png)
+
+
+
 
 ## Análisis de resultados.
 ### Sumador Completo
