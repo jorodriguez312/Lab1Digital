@@ -521,7 +521,10 @@ Adicionalmente en casos como el sumador restador de 4 bits es conveniente usar e
 - GTKWave es una herramienta esencial para la visualización y análisis de señales digitales en circuitos electrónicos. Su capacidad para representar de manera efectiva los valores lógicos 1 y 0, así como las transiciones entre ellos, brinda a los diseñadores y analistas una visión profunda de cómo funcionan los circuitos digitales.
 - Las herramientas de simulación son de gran utilidad para trabajar sistemas muy complejos debido a su capacidad de trabajo de grandes cantidades de datos y al diseño modular de los circuitos.
 ## Referencias 
-https://ieeexplore.ieee.org/document/1620780
-https://steveicarus.github.io/iverilog/index.html
-https://www.techtarget.com/whatis/definition/Karnaugh-map-K-map
-[Repositorio Digital en GitHub](https://github.com/hneemann/Digital).
+
+- https://ieeexplore.ieee.org/document/1620780
+- https://steveicarus.github.io/iverilog/index.html
+- https://www.techtarget.com/whatis/definition/Karnaugh-map-K-map
+- [Repositorio Digital en GitHub](https://github.com/hneemann/Digital).
+- M.Morris. Diseño digital tercera edición.2003.
+- Floyd.T. Fundamentos de sistemas digitales novena edición.2006.
