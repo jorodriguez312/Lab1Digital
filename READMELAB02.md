@@ -510,13 +510,16 @@ El circuito de sumador-restador se simuló utilizando Digital. Se obtuvieron las
     Suma/Resta=A⊕B⊕CinSuma/Resta=A⊕B⊕Cin
 
 Los resultados muestran que el circuito es capaz de realizar tanto sumas como restas, y las expresiones son coherentes con la lógica de operaciones aritméticas.
+Al realizar las simulaciones en las herramientas propuestas se observa que los valores obtenidos son coherentes con la teoría usada y además pueden presentar caminos diferentes para la resolución de un sistema u operación como en el caso del sumador restador de 3 bits que en la teoría se hace con compuertas AND Y XOR pero digital presenta otro método sin el uso de XOR. Adicionalmente digital brinda posiblidades de solución de los sistemas para diferentes entradas como por ejemplo si se tiene la tabla o el circuito de una operación, independientemente de cual se suiministre al simulador se podrán usar los mismos métodos de análisis.
 
-En todas las simulaciones y simplificaciones mediante mapas de Karnaugh son coherentes con la teoría.
+Adicionalmente en casos como el sumador restador de 4 bits es conveniente usar estas herramientas de simulación debido al volumen de datos con los que trabaja, aunque esto también puede afectar los resultados ya que en el caso de digital no se pudo realizar el análisis por mapa de Karnaugh debido a la cantidad de datos del circuito.
+
 ## Conclusiones
 - Se demostró que las herramientas de simulación de código abierto, como Digital, Icarus Verilog y GTKWave, son efectivas para el diseño y análisis de circuitos digitales. Estas herramientas brindan la capacidad de verificar el comportamiento de los diseños antes de la implementación física, lo que es esencial en el proceso de desarrollo de sistemas digitales.
 - Verilog es una herramienta esencial para describir la funcionalidad de los circuitos y verificar su comportamiento bajo diferentes condiciones. El uso de módulos y testbenches permite una metodología estructurada y eficiente para el diseño de sistemas digitales
 - Digital es una herramienta bastante versatil y facil de usar para diseña sistemas digitales ya genera código VHDL y Verilog, mapas de Karnaugh, tablas de verdad, análisis de circuitos, algebra boolena y sintesis agregando un valor significativo, ya que facilita la implementación de diseños en hardware real.
-- GTKWave es una herramienta esencial para la visualización y análisis de señales digitales en circuitos electrónicos. Su capacidad para representar de manera efectiva los valores lógicos 1 y 0, así como las transiciones entre ellos, brinda a los diseñadores y analistas una visión profunda de cómo funcionan los circuitos digitales
+- GTKWave es una herramienta esencial para la visualización y análisis de señales digitales en circuitos electrónicos. Su capacidad para representar de manera efectiva los valores lógicos 1 y 0, así como las transiciones entre ellos, brinda a los diseñadores y analistas una visión profunda de cómo funcionan los circuitos digitales.
+- Las herramientas de simulación son de gran utilidad para trabajar sistemas muy complejos debido a su capacidad de trabajo de grandes cantidades de datos y al diseño modular de los circuitos.
 ## Referencias 
 https://ieeexplore.ieee.org/document/1620780
 https://steveicarus.github.io/iverilog/index.html
