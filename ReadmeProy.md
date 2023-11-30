@@ -16,20 +16,17 @@ Este proyecto tiene como objetivo principal aplicar los conocimientos de la asig
 2. [Descripción](#descripción)
 3. [Marco Teórico](#marco-teórico)
    3.1. [Sensores](#sensores)
-   3.2. [Actuadoes](#actuadores)
+   3.1.1. [Sensor de ultrasonido HC-SR04](#sensor-de-ultrasonido-HC-SR04)
+   3.1.2. [Sensor Joystick KY-023](#sensor-joystick-KY-023)
+   3.2. [Actuadores](#actuadores)
+   3.2.3. [Servo Motor SG90](#servo-Motor-SG90)
    3.3. [FPGA](#fpga)
-   3.4. [Circuitos integrados (CI)](#circuitos-integradosci)
-   3.5. [Familias lógicas](#familias-lógicas)
-      3.5.1. [TTL (Transistor-Transistor Logic)](#ttl-transistor-transistor-logic)
-      3.5.2. [CMOS (Complementary Metal-Oxide-Semiconductor)](#cmos-complementary-metal-oxide-semiconductor)
-4. [Materiales](#materiales)
-5. [Simulaciones](#simulaciones)
-   5.1. [Compuerta 74LS04](#compuerta-74ls04)
-   5.2. [Compuerta CD4069](#compuerta-cd4069)
-6. [Resultados](#resultados)
-7. [Análisis de resultados](#Anàlisisderesultados)
-8. [Conclusiones](#conclusiones)
-9. [Referecicas bibliográficas.](#Referenciasbibliogràficas)
+5. [Materiales](#materiales)
+6. [Simulaciones](#simulaciones)
+7. [Resultados](#resultados)
+8. [Análisis de resultados](#Análisisderesultados)
+9. [Conclusiones](#conclusiones)
+10. [Referecicas bibliográficas.](#Referenciasbibliográficas)
 
 ## Marco Teórico.
 
@@ -118,7 +115,8 @@ A continuación se presentan las epecificaciones del proyecto.
        Peso: 9 gr.
 
        
-  - - _**Datasheet Sensor Joystick KY-023:**_
+  - - _**Datasheet Sensor FPGA Altera Cyclone IV:**_
+      ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/80084126208240751f766cefe7823d6b2eb00381/caepeta2/data%201.png)
 
 ## Materiales
 - **FPGA Altera Cyclone IV**
@@ -145,9 +143,9 @@ A continuación se presentan las epecificaciones del proyecto.
   
   ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/Protoboard.jpg)
   
-- **Servo motor**
+- **Servo motor SG90**
   
-    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/servomotor-mg996r-180-grados-11kg-zamux.jpg)
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/ddca0ff5ac9ddc2fc5cb734789db66cd4bf7b757/caepeta2/servo.jpeg)
 
 ## Simulaciones
 
@@ -163,4 +161,24 @@ a. ssss
        
 ## Análisis de resultados
 
-### bbb
+###
+
+## Conclusiones
+- Se demostró que las herramientas de simulación de código abierto, como Digital, Icarus Verilog y GTKWave, son efectivas para el diseño y análisis de circuitos digitales. Estas herramientas brindan la capacidad de verificar el comportamiento de los diseños antes de la implementación física, lo que es esencial en el proceso de desarrollo de sistemas digitales.
+- Verilog es una herramienta esencial para describir la funcionalidad de los circuitos y verificar su comportamiento bajo diferentes condiciones. El uso de módulos y testbenches permite una metodología estructurada y eficiente para el diseño de sistemas digitales
+- Digital es una herramienta bastante versatil y facil de usar para diseña sistemas digitales ya genera código VHDL y Verilog, mapas de Karnaugh, tablas de verdad, análisis de circuitos, algebra boolena y sintesis agregando un valor significativo, ya que facilita la implementación de diseños en hardware real.
+- GTKWave es una herramienta esencial para la visualización y análisis de señales digitales en circuitos electrónicos. Su capacidad para representar de manera efectiva los valores lógicos 1 y 0, así como las transiciones entre ellos, brinda a los diseñadores y analistas una visión profunda de cómo funcionan los circuitos digitales.
+- Las herramientas de simulación son de gran utilidad para trabajar sistemas muy complejos debido a su capacidad de trabajo de grandes cantidades de datos y al diseño modular de los circuitos.
+- 
+## Referencias.
+
+- [Repositorio Digital en GitHub](https://github.com/hneemann/Digital).
+- M.Morris. Diseño digital tercera edición.2003.
+- Floyd.T. Fundamentos de sistemas digitales novena edición.2006.
+- https://www.intel.com/content/www/us/en/content-details/654327/cyclone-iv-device-handbook-volume-3-device-datasheet.html
+- https://ferretronica.com/products/servomotor-sg90?variant=12118474162269&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2021-10-19&utm_source=google&utm_medium=smart_campaign&gclid=EAIaIQobChMIg_XmrrfrggMVoolaBR3bCgtzEAQYAiABEgKmzvD_BwE
+- https://www.ardobot.co/micro-servo-miniatura-sg90-9g.html
+- https://naylampmechatronics.com/sensores-proximidad/10-sensor-ultrasonido-hc-sr04.html
+- https://www.akka-technologies.com/fpga/#:~:text=Una%20FPGA%20(Field%20Programmable%20Gate,un%20lenguaje%20de%20descripci%C3%B3n%20especializado.
+- https://tameson.es/pages/actuador
+- 
