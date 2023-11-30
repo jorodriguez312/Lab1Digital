@@ -187,13 +187,33 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 ![Imagen](https://github.com/jorodriguez312/Digital/blob/47baf131a55bd951443e7ea5dbc49521023abd5f/Imagenes/circuito%20CD4069.png)
 
 ## Materiales
-- **FPGA Altera Cyclone IV** 
+- **FPGA Altera Cyclone IV**
+  
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/Target-FPGA-Kit-Altera-Cyclone-IV-EP4CGX22CF19C7-device.png)
+  
 - **Jumpers hembra-macho**
+  
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/jumpers-macho-hembra-20cm-cinta-40-unidades-zamux-1.jpg)
+  
 - **Sensor Ultrasonido HC-SR04**
+  
+   ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/081611.jpg)
+  
 - **Modulo KY-023 Sensor Joystick**
+  
+   ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/M%C3%B3dulo-Joystick-An%C3%A1logo-XY-KY-023-5V-1.jpg)
+  
 - **Tarjeta de desarrollo Esp32 Wroom**
+  
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/ESP32-WROOM-32-DEVKIT.jpg)
+  
 - **Protoboard**
+  
+  ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/Protoboard.jpg)
+  
 - **Servo motor**
+  
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/d7a43e65287f38cc2304ffcb79c5a071d3f3131e/caepeta2/servomotor-mg996r-180-grados-11kg-zamux.jpg)
 
 ## Simulaciones
 
