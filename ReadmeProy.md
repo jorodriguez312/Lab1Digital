@@ -48,7 +48,7 @@ Dispositivo que recibe energía y la convierte en una salida eléctrica, movimie
   
 - **Actuadores rotativos:** Convierten la energía en movimiento giratorio mediante un eje que se encarga del control de la velocidad, posición y la rotación; funcionan con un motor de rotación que se acciona por señales eléctricas.  Se usan en equipos médicos, radares, monitorización, robótica y simuladores de vuelo.
   
-- **Servo Motor:**
+- **Servo Motor SG90:** Es un actuador rotativo compuesto por un motor eléctrico de corriente contínual, que cuenta la capacidadd de seleccionar posición y mantenerse en dicho lugar, debido al circuito de control con el que cuenta, puede rotar 360°, el control se realiza por modulación de pulsos (PWM) a una frecuencia de 50Hz, de esta forma se determina la dirección y y la posición.
   
 **3. FPGA**. (Fiel programmable Gate Array) es un circuito integrado digital que se compone por bloques lógicos configurables y puertos de entrada/salida; se caracteriza porque su funcionalidad e interconexión se pueden programar y reprogramar. Las FPGA se componen de compuertas lógicas AND, OR, memoria RAM Y controladores de reloj, por lo que es idea para el diseño de sistemas embebidos con microprocesadores.
 
@@ -95,7 +95,30 @@ A continuación se presentan las epecificaciones del proyecto.
   
       Compatible con la interfaz de Arduino.
   
-      Peso: 14gr
+      Peso: 14gr.
+  
+  - _**Datasheet Servo Motor SG90:**_
+    
+       Voltaje de operación DC: 4.8V a 6V.
+    
+       Velocidad de operación: 0.12 s/60º (4.8V).
+    
+       Torque: 1.8 kg*cm (4.8V) y 2.2 Kg*cm (6V).
+    
+       Piñonería plástica.
+    
+       Incluye 3 accesorios plásticos y su tornillo de sujeción, 2 tornillos para montaje del servo y cable de conexión con conector.
+    
+       Conector universal tipo "S" compatible con la mayoría de receptores incluyendo Futaba, JR, GWS, Cirrus, Blue Bird, Blue Arrow, Corona, Berg, Spektrum y Hitec, entre otros.
+  
+       Longitud del cable: 25 cm.
+    
+       Dimensiones: 23 mm x 13 mm x 29 mm.
+    
+       Peso: 9 gr.
+
+       
+  - - _**Datasheet Sensor Joystick KY-023:**_
 
 ## Materiales
 - **FPGA Altera Cyclone IV**
