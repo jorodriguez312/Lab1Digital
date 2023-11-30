@@ -33,13 +33,12 @@ Este proyecto tiene como objetivo principal aplicar los conocimientos de la asig
 
 ## Marco Teórico.
 
-**1. Álgebra Booleana:**
+**1. Sensores.**
 
-Las compuertas lógicas están basadas en la álgebra booleana, un sistema matemático que manipula variables binarias (1 y 0) y opera con operaciones lógicas fundamentales como AND, OR y NOT. Esta álgebra fue desarrollada por George Boole en el siglo XIX y proporciona la base teórica para el diseño de circuitos digitales y la representación de sistemas de lógica.
 
-**2. Compuertas Lógicas Básicas: Fundamentos y Funcionamiento**
 
-Las compuertas lógicas los elementos digitales más básicos, los cuales tienen la función de permitir o denegar el flujo de información digital, por esto el nombre de compuerta. Las compuertas lógicas pueden tener una o más entradas que se transformarán en una señal de salida que está en función de la corriente de entrada. Dichas entradas y salidas se expresan como valores discretos de "0" y "1" aunque pueden representar efectos contínuos de la naturaleza. Las compuertas lógicas más importantes son:
+**2. Actuadores.**
+
 
 - **Compuerta AND:** Produce una salida lógica 1 (verdadero) solo cuando todas sus entradas son 1, a esto se le conoce como multiplicación lógica.
   
@@ -60,7 +59,7 @@ Las compuertas lógicas los elementos digitales más básicos, los cuales tienen
 
   ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/b618196c0457b14120864c417ca331d5584c78c5/Imagenes/tabla%20not.png)
 
-**3. Transistor**.
+**3. FPGA**.
 
 Es un dispositivo semiconductor de tres terminales que se puede usar para amplificar o para lógica digital, este dispositivo se contola mediante la aplicación en dos de sus terminales para controlar la corriente que fluye en su tercera terminal. Los dos tipos de transistores que existen son:
 
@@ -169,9 +168,6 @@ A continuación se presenta una imágen en la que se detalla el circuito equival
 
 - _**Datasheet 74LS04.**_
 
-![Imagen](https://github.com/jorodriguez312/Digital/blob/c70a2b33f4d06ff5af6019a806b3881cfde2d699/Imagenes/diagrama%20de%20conexion%20y%20tabla%2074L.png)
-![Imagen](https://github.com/jorodriguez312/Digital/blob/c70a2b33f4d06ff5af6019a806b3881cfde2d699/Imagenes/data%2001%2074L.png)
-![Imagen](https://github.com/jorodriguez312/Digital/blob/c70a2b33f4d06ff5af6019a806b3881cfde2d699/Imagenes/data%2002%2074L.png)
 
 - _Circuito interno 74LS04:_
 
