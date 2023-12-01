@@ -147,17 +147,11 @@ A continuación se presentan las epecificaciones del proyecto.
   
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/ddca0ff5ac9ddc2fc5cb734789db66cd4bf7b757/caepeta2/servo.jpeg)
 
-## Simulaciones
-
-### dddd
-
 a. ssss
 
 ## Resultados
- MrBrightside8-patch-14-1
-- **LLLL**
-  
-  - 1. sssss
+Como muestra de los resultados obtenidos, se presenta el video disponible en el siguiente enlace:
+https://youtu.be/PMd0ZGzktEw
        
 ## Análisis de resultados
 
