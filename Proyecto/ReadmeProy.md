@@ -147,15 +147,22 @@ A continuación se presentan las epecificaciones del proyecto.
   
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/ddca0ff5ac9ddc2fc5cb734789db66cd4bf7b757/caepeta2/servo.jpeg)
 
-a. ssss
 
 ## Resultados
+En la realización de los códigos de obtuvieron los siguientes circuitos RTL para cada módulo.
+- Circuito general.
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen.png)
+- Módulo Contador para el trigger
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(1).png)
+- Módulo Contador para el echo
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(2).png)
+- Módulo Control de leds y sonido
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(3).png)
+- Módulo Movimieto del Joystick
+    ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(4).png)
+
 Como muestra de los resultados obtenidos, se presenta el video disponible en el siguiente enlace:
 https://youtu.be/PMd0ZGzktEw
-       
-## Análisis de resultados
-
-###
 
 ## Conclusiones
 - Se demostró que las herramientas de simulación de código abierto, como Digital, Icarus Verilog y GTKWave, son efectivas para el diseño y análisis de circuitos digitales. Estas herramientas brindan la capacidad de verificar el comportamiento de los diseños antes de la implementación física, lo que es esencial en el proceso de desarrollo de sistemas digitales.
