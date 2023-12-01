@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ContadorConTrigger</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>module ContadorConTrigger(
+    input wire clk,          
+    output reg trigger       
+);
+
+reg [19:0] contador1;        
+parameter limite = 20&apos;d500000;     
+
+always @(posedge clk) begin
+    if (contador1 &lt; limite) begin
+        contador1 &lt;= contador1 + 1;
+        trigger &lt;= 1;
+    end else begin
+        contador1 = 0;
+        trigger = 0;
+    end
+end
+
+endmodule</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>trigger</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ContadorConEcho</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,echo</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>module ContadorConEcho(
+    input wire clk,           // Entrada de reloj
+    input wire echo,          // Entrada de control (cuando echo=1, se incrementa el contador)
+    output reg [19:0] contador2 // Salida del contador de 32 bits
+);
+
+always @(posedge clk) 
+    begin
+		if(echo==1)
+			begin
+				contador2=contador2+1; //Se va almacenando en un contador si el ultrasonido genera el echo
+			end
+		else
+			begin 
+				contador2=0;
+			end
+	end
+
+endmodule</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>contador2:20</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>ControlLed</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>clk,contador2:20</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>module ControlLed(
+    input clk,
+    input wire [19:0] contador2,  
+    output reg led1,   
+    output reg led2, 
+    output reg led3   
+);
+
+
+parameter L1=20&apos;d70000; 
+parameter L1m=20&apos;d50000; //Para entre 30cm 
+parameter L2=20&apos;d50000;  //Para entre 10cm
+parameter L2m=20&apos;d30000;
+parameter L3=20&apos;d30000; //Para entre 2cm
+parameter L3m=20&apos;d3000; //Para 1cm
+
+
+always @(contador2) 
+	begin
+
+		if (contador2&gt;L1m &amp;&amp; contador2&lt;L1)
+			begin
+				led1 &lt;= 0;
+				led2 &lt;= 1;
+				led3 &lt;= 1;  
+			end
+		else if (contador2&gt;L2m &amp;&amp; contador2&lt;L2)
+			begin
+				led1 &lt;= 1;
+				led2 &lt;= 0;
+				led3 &lt;= 1;  
+			end
+		else if (contador2&gt;L3m &amp;&amp; contador2&lt;L3)
+			begin
+				led1 &lt;= 1;
+				led2 &lt;= 1;
+				led3 &lt;= 0;  
+			end
+	end
+
+endmodule</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>led1,led2,led3</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>trig</string>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>echo</string>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>led1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>led2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>led3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="280"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="740" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="240"/>
+      <p2 x="940" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="240"/>
+      <p2 x="1160" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="180"/>
+      <p2 x="700" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="180"/>
+      <p2 x="920" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="260"/>
+      <p2 x="940" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="260"/>
+      <p2 x="1200" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="280"/>
+      <p2 x="200" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="280"/>
+      <p2 x="460" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="280"/>
+      <p2 x="740" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="280"/>
+      <p2 x="1160" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="280"/>
+      <p2 x="240" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="180"/>
+      <p2 x="200" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="180"/>
+      <p2 x="920" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="180"/>
+      <p2 x="700" y="240"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
