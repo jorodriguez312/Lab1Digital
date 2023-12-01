@@ -150,16 +150,26 @@ A continuación se presentan las epecificaciones del proyecto.
 
 ## Resultados
 En la realización de los códigos de obtuvieron los siguientes circuitos RTL para cada módulo.
-- Circuito general.
+- **Circuito General**
+- 
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen.png)
-- Módulo Contador para el trigger
+  
+- **Módulo Contador para el trigger**
+- 
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(1).png)
-- Módulo Contador para el echo
+  
+- **Módulo Contador para el echo**
+- 
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(2).png)
-- Módulo Control de leds y sonido
+  
+- **Módulo Control de leds y sonido**
+- 
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(3).png)
-- Módulo Movimieto del Joystick
+  
+- **Módulo Movimieto del Joystick**
+- 
     ![Imagen](https://github.com/jorodriguez312/Lab1Digital/blob/main/caepeta2/imagen(4).png)
+  
 
 Como muestra de los resultados obtenidos, se presenta el video disponible en el siguiente enlace:
 https://youtu.be/PMd0ZGzktEw
